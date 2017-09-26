@@ -1,0 +1,137 @@
+body {
+  background: rgb(243, 243, 243);
+  position: relative;
+}
+.headerBlue{
+  width: 100%;
+  height: 220px;
+  background-color: #30558e;
+  padding-top: 75px;
+  margin-bottom: 50PX;
+}
+.headerMenu{
+  width: 80%;
+  margin: 0 auto;
+}
+.tittleHeader{
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+.subTittleHeader{
+  color:#fff;
+  text-align: right;
+  font-size: 20px;
+}
+#menuListGroup{
+  /*width: 350px;*/
+  /*position: fixed*/
+}
+.contentInfo{
+  margin: 100px auto;
+  width: 80%
+}
+.contentWhite {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 50px 0px 0px;
+}
+.list-group-item.active {
+  z-index: 2;
+  color: #fff;
+  background-color: #30558e;
+  border-color: #30558e;
+}
+section.ol {
+  padding: 0px 33px 25px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+section.ol2{
+  padding: 0px 33px 25px;
+}
+.title, .titulo{
+  color: #343A40;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+p.title{
+  margin-top: 1.5rem;
+  /*padding: 40px 0 19px;*/
+}
+/*.positionRelative{
+  position: relative;
+}*/
+p.title::before{
+  display: block;
+  height: 6rem;
+  margin-top: -5rem;
+  visibility: hidden;
+  content: "";
+}
+.outer{
+  display: block;
+  text-align: center;
+}
+.boxShadowImg{
+  box-shadow: 2px 2px 2px #bfbfbf;
+}
+.positionFixed{
+  position: fixed;
+}
+.mt-100{
+  margin-top:100px;
+}
+.textFigure{
+  text-align: left;
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media screen and (max-width: 768px) {
+  #menuListGroup{
+    width: 100%;
+    position: inherit;
+  }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media screen and (max-width: 576px) {
+  .headerMenu {
+    width: 95%;
+  }
+  .contentInfo {
+    width: 100%;
+    margin: 50px auto;
+  }
+  .contentWhite {
+    padding: 3px 0px 0px;
+}
+  .headerBlue{
+    height: 120px;
+    padding-top:30px; 
+  }
+  .tittleHeader{
+    font-size: 20px;
+  }
+  .subTittleHeader{
+    font-size: 15px;
+  }
+  #menuListGroup{
+    width: 100%;
+    position: inherit;
+  }
+  p.title {
+    padding: 0;
+  }
+  p.title::before {
+    height: 6rem;
+    margin-top: -5rem;
+  }
+  section.ol, section.ol2{
+    padding: 0px 22px 15px;
+  }
+}

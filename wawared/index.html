@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Manual de uso: Módulo Wawared</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body data-spy="scroll" data-target="#menuListGroup">
+    <header class="headerBlue">
+        <div class="headerMenu">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 col-xs-6 col-5">
+                        <a href="index.html"><img class="img-fluid imagen_logoMinsa" src="img/logo_minsa_big.jpg" alt="Logo Minsa"></a>
+                    </div>
+                    <div class="col-md-6 col-xs-6 col-7">
+                        <p class="tittleHeader">Manual de Uso</p>
+                        <p class="subTittleHeader">Wawared</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="contentInfo">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="contentMenu" class="col-lg-3 col-md-4 col-12 mb-5">
+                    <div id="menuListGroup" class="list-group">
+                        <a href="#presentacion" class="list-group-item list-group-item-action active">Inicio</a>
+                        <a href="#abreviaturas" class="list-group-item list-group-item-action">Abreviaturas</a>
+                        <a href="#ingreso" class="list-group-item list-group-item-action">Sección I: Ingreso al sistema</a>
+                        <a href="#pantallaPrincipal" class="list-group-item list-group-item-action">Sección II: Pantalla Principal</a>
+                        <a href="#registroGestante" class="list-group-item list-group-item-action">Seccion III: Registro de gestante</a>
+                        <a href="#atencionPrenatal" class="list-group-item list-group-item-action">Sección IV: Atención Prenatal</a>
+                        <a href="#registrosEstadisticos" class="list-group-item list-group-item-action">Sección V: Registros Estadísticos</a>
+                        <a href="#registrosCitas" class="list-group-item list-group-item-action">Sección VI: Registro de cita</a>
+                        <a href="#calendarioCitas" class="list-group-item list-group-item-action">Sección VI: Calendario de citas</a>
+                        <a href="#busquedaGestantes" class="list-group-item list-group-item-action">Sección VII: Busqueda de gestantes</a>
+                        <a href="#herramientasAcceso" class="list-group-item list-group-item-action">Sección VIII: Herramientas de acceso</a>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-8 col-12">
+                    <div data-spy="scroll" data-target="#menuListGroup" data-offset="0" class="contentWhite scrollspy-example">
+                        <div class="container-fluid">
+                            <!-- inicio -->
+                            <section class="ol">
+                                <div id="presentacion">
+                                    <p class="title">Presentación</p>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12">
+                                            <p class="text-justify">“Wawared: Conectándose para una mejor salud Materna-Infantil en el Perú” es un proyecto liderado por la Universidad Peruana Cayetano Heredia y gracias al apoyo del Ministerio de Salud, para su implementación a nivel nacional, en favor de la población gestante y en beneficio de los profesionales de salud para mejorar la calidad de información que estos reportan. 
+                                            </p>
+                                            <p class="text-justify">El proyecto consiste en la implementación de una Historia Clínica Electrónica (HCE) para la atención prenatal que está relacionado con el envío de mensajes de texto (SMS) a las mujeres embarazadas.
+                                            Desarrollamos esta guía de usuario para el ingreso y uso de la HCE de Wawared, y así poder agilizar y aprovechar al máximo las distintas utilidades y herramientas que brinda el sistema de manera clara y sencilla, explicando paso a paso su correcto uso.
+                                            </p>
+                                            <p class="text-justify"> Esta guía está dividido en 8 secciones: (I) Ingreso del sistema, (II) Pantalla principal, (III) Registro de gestante, (IV) Atención prenatal, (V) Registro de cita, (VI) Calendario de citas, (VII) Búsqueda de gestante y (VIII) Herramientas de acceso. Todas ellas explicadas detalladamente.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                             <!-- abreviaturas -->
+                            <section class="ol">
+                                <div id="abreviaturas">
+                                    <p class="title">Abreviaturas</p>
+                                    <div>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <p><b>HCE</b> Historia clínica electrónica</p>
+                                                <p><b>FUM</b> Fecha ultima de menstruación</p>
+                                                <p><b>EG</b> Edad gestacional</p>
+                                                <p><b>FPP</b> Fecha probable de parto</p>
+                                                <p><b>Eco</b> Ecografía</p>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <p><b>IMC</b> Índice de masa corporal</p>
+                                                <p><b>DNI</b> Documento de identidad nacional</p>
+                                                <p><b>MAC</b> Método anticonceptivo</p>
+                                                <p><b>FCF</b> Frecuencia Cardiaca fetal</p>
+                                                <p><b>IVA</b> Inspección visual con ácido acético</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- ingreso al sistema -->
+                            <section class="ol">
+                                <div id="ingreso">
+                                    <p class="title">INGRESO Al sistema</p>
+                                    <div class="mb-5">
+                                        <p>Wawared permite un sencillo ingreso al sistema, usted debe ir a la siguiente dirección: <a href="#">wawared.minsa.gob.pe</a> luego le saldrá la primera ventana para su acceso.</p>
+                                        <img class="mt-5 img-fluid d-block mx-auto boxShadowImg" src="img/url.png" alt="url para ingresar a ventanilla única">
+                                    </div>
+                                    <div class="mb-5">
+                                        <p><b>1. PANTALLA DE INICIO</b></p>
+                                        <p>La pantalla de inicio (figura 1), es la ventana donde ingresará su usuario y contraseña, esta ventana cuenta con los siguientes campos que deben ser completados:</p>
+                                        <p><b>A. Usuario:</b> Campo donde se digita el nombre de usuario asignado. Recuerde que el usuario será en minúsculas sin espacios, puede contener puntos y números.</p>
+                                        <div class="outer mb-5 mt-5">
+                                            <figure class="figure">
+                                                <img src="img/figura1.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                <figcaption class="figure-caption textFigure">Figura 1</figcaption>
+                                            </figure>
+                                        </div>
+                                        <p><b>B. Contraseña:</b> Campo donde se digita la contraseña, esta puede tener letras y números. El usuario tiene la opción de cambiar su contraseña.</p>    
+                                        <p><b>C. Botón Ingresar:</b> Ingresado el usuario y contraseña pulse el botón para continuar con el ingreso al sistema.</p>
+                                        <p><b>D. Botón ¿Has olvidado tu contraseña?:</b> Esta opción se utiliza cuando el usuario olvida su contraseña.</p>    
+                                        <p><b>E. Resetear contraseña (figura 2):</b> Esta ventana aparece si pulsa el botón de olvido de contraseña, le solicita su nombre de usuario, luego pulsar el botón resetear, el sistema enviará la nueva contraseña al correo que  brindo al equipo Wawared.</p>
+                                        <div class="outer mb-5 mt-5">
+                                            <figure class="figure">
+                                                <img src="img/figura2.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                <figcaption class="figure-caption textFigure">Figura 2</figcaption>
+                                            </figure>
+                                        </div>    
+                                    </div>
+                                    <div class="mb-5">
+                                        <p><b>2. SELECCIÓN DE ESTABLECIMIENTO</b></p>
+                                        <p>Ingresado los datos de usuario y contraseña, deberá elegir el establecimiento donde usted realiza la atención u observa la información. Para esto siga los siguientes pasos (figura 3):</p>
+                                        <div class="outer mb-5 mt-5">
+                                            <figure class="figure">
+                                                <img src="img/figura3.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                <figcaption class="figure-caption textFigure">Figura 3</figcaption>
+                                            </figure>
+                                        </div>   
+                                        <p><b>A. Barra de Selección*:</b> Le permite elegir el establecimiento (figura 4).</p>
+                                        <p><b>B. Botón Seleccionar: </b> Elegido el establecimiento pulse el botón “Seleccionar” para poder ingresar al sistema</p>    
+                                        <p><b>C. Botón Cerrar Sesión: </b> Le permite salir del sistema.</p>
+                                        <div class="outer mb-5 mt-5">
+                                            <figure class="figure">
+                                                <img src="img/figura4.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                <figcaption class="figure-caption textFigure">Figura 4</figcaption>
+                                            </figure>
+                                        </div>  
+                                    </div>  
+                                </div>
+                            </section>
+                            <!-- pantalla principal -->
+                            <section class="ol">
+                                <div id="pantallaPrincipal">
+                                    <p class="title">pantalla principal</p>
+                                    <div class="mb-5">
+                                        <p>Es la pantalla de principal (figura 5) del sistema,  las diversas herramientas que ofrece la HCE.</p>
+                                        <p>Se encuentra dividida de la siguiente manera: una barra de íconos con las opciones Inicio, Registrar cita, Registrar gestante y Buscar gestante; también observará la ventana Central donde se puede descargar o visualizar el Calendario de citas, Informe nutricional, Reporte global, Libro de registro diario de gestantes, más abajo se visualiza el Reporte de citas y el Reporte de citas en riesgo.</p>
+                                        <div class="contenerdorPantallaPrincipal">
+                                            <p><b>1. INICIO:</b> Botón que permite ir a la pantalla principal de la HCE.</p>
+                                            <p><b>2. REGISTRAR CITA:</b> Botón que lo lleva a la pantalla para registrar citas.</p>
+                                            <p><b>3. REGISTRAR GESTANTE:</b> Botón donde se registran nuevas gestantes.</p>
+                                            <p><b>4. BUSCAR GESTANTE:</b> Botón que le permite ir a la pantalla para buscar gestantes registradas en el sistema.</p>
+                                            <p><b>5. REPORTES ESTADÍSTICOS:</b> Botón que le permite visualizar los diferentes indicadores., que le permitirán hacer un análisis y un recuento de los datos hasta ahora registrados.</p>
+                                            <p><b>6. CALENDARIO DE CITAS:</b> Botón que le permite visualizar el calendario con las citas programadas.</p>
+                                            <p><b>7. INFORME NUTRICIONAL:</b> Pulsando el botón descargará el informe nutricional por un periodo de tiempo elegido.</p>
+                                            <p><b>8. REPORTE GLOBAL:</b> Pulsando el botón descargará un archivo donde se visualiza el total de gestantes registradas en su establecimiento.</p>
+                                            <p><b>9. LIBRO DE REGISTRO DIARIO DE GESTANTES:</b> Pulsando el botón descargará un archivo donde se visualiza las gestantes registradas en su establecimiento con en el formato de Libro de Seguimiento Diario.</p>
+                                            <p><b>10. REPORTE DE CITAS:</b> Pantalla donde se observa las citas programadas diariamente.</p>
+                                            <p><b>11. REPORTE DE CITAS EN RIESGO:</b> Pantalla donde se observa las citas de gestantes que no acuden a su Atención y tienen un retraso de una semana.</p>
+                                            <p><b>12. ACCESO:</b> Muestra los datos del usuario, también tiene la opción de cambiar su contraseña y/o salir del sistema.</p>
+                                        </div>
+                                    </div>
+                                    <div class="outer mb-5 mt-5">
+                                        <figure class="figure">
+                                            <img src="img/figura5.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                            <figcaption class="figure-caption textFigure">Figura 5</figcaption>
+                                        </figure>
+                                    </div>  
+                                </div>
+                            </section>
+                            <!-- registro de gestante -->
+                            <section class="ol">
+                                <div id="registroGestante">
+                                    <p class="title">registro de gestantes</p>
+                                    <div class="mb-5">
+                                        <p>Para ingresar la información de una nueva gestante en el sistema, debemos de pulsar en el icono de Registro de Gestante.</p>
+                                        <p>Automáticamente aparecerá la antalla Registrar Gestante, el proceso de registro es ordenado y sencillo.</p>
+                                    </div>
+                                    <div class="datosAfiliacíon">
+                                        <p><b>1. DATOS DE AFILIACIÓN:</b></p>
+                                        <div class="mb-5">
+                                            <div class="ml-3">
+                                                <p><b>A. DATOS DE LA GESTANTE </b>(figura 6):</p>
+                                                <div class="outer mb-5 mt-5">
+                                                    <figure class="figure">
+                                                        <img src="img/figura6.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                        <figcaption class="figure-caption textFigure">Figura 6</figcaption>
+                                                    </figure>
+                                                </div>  
+                                                <div class="ml-3">
+                                                    <p><b>A1. Nombres y Apellidos:</b> Ingreso del o los nombres y apellidos. Los datos consignados deben ser los mismos que aparecen en el DNI.</p>
+                                                    <p><b>A2. Fecha de Nacimiento:</b> Ingrese la fecha en el siguiente orden: día, mes y año. La fecha debe ser la misma que aparece en el DNI.</p>
+                                                    <p><b>A3. Transfusión Sanguínea:</b> Consultar a la gestante si está dispuesta a recibir sangre en caso de emergencia, y de acuerdo a su respuesta marque una opción: SI, NO o deja en N/A (no aplica).</p>
+                                                    <p><b>A4. Edad:</b> Aparecerá automáticamente después de ingresar la fecha de nacimiento.</p>
+                                                    <p><b>A5. Historia Clínica (HC):</b> Se registra el número de Historia Clínica.</p>
+                                                    <p><b>A6. Tipo Documento (figura 7):</b> Se elige el tipo de documento de identidad, las opciones son: Documento Nacional de Identidad (DNI), Pasaporte o Carné de Extranjería (CE).</p>
+                                                    <p><b>A7. Número de Documento:</b> Ingrese el número de documento.</p>
+                                                    <p><b>A8. DNI del Responsable:</b> En caso la gestante es menor de edad, ingrese el número de DNI de la persona responsable de la gestante.</p>
+                                                    <p><b>A9. Nombre del Responsable:</b> Ingrese los nombres y apellidos de la persona responsable de la gestante.</p>
+                                                    <p><b>A10. Tipo de Parentesco</b> (figura 8): Permite elegir el tipo de parentesco del responsable (madre, padre, pareja, otro), si elige “otro” ingrese el parentesco.</p>
+                                                </div>
+                                                <div class="outer mb-5 mt-5">
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <figure class="figure">
+                                                                <img src="img/figura7.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                                <figcaption class="figure-caption textFigure">Figura 7</figcaption>
+                                                            </figure>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <figure class="figure">
+                                                                <img src="img/figura8.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                                <figcaption class="figure-caption textFigure">Figura 8</figcaption>
+                                                            </figure>
+                                                        </div>
+                                                    </div>
+                                                </div>  
+                                            </div>
+                                        </div>
+                                        <div class="mb-5">
+                                            <div class="ml-3">
+                                                <p><b>B. LUGAR DE RESIDENCIA</b>(figura 9):</p>
+                                                <div class="ml-3">
+                                                    <p><b>B1. País, Departamento, Provincia y Distrito de Residencia:</b> Seleccione el lugar donde la gestante vive actualmente.</p>
+                                                    <p><b>B2. Dirección:</b> Ingrese la dirección exacta de residencia.</p>
+                                                    <p><b>B3. Categorización y sector:</b> Ingrese el nombre o número del núcleo urbano (urbanización, pueblo joven, asentamiento humano, caserío, anexo, etc.) que pertenece a la dirección.</p>
+                                                    <p><b>B4. Teléfono de casa:</b> Ingrese el número de teléfono fijo. Campo NO obligatorio.</p>
+                                                    <p><b>B5. Celular 1 y celular 2:</b> Ingrese el número de celular de la gestante y otro número que puede ser de algún familiar de contacto, Campo NO obligatorio. </p>
+                                                    <p><b>B6. Correo electrónico:</b> Ingrese el correo electrónico de la gestante. Campo NO obligatorio.</p>
+                                                </div>
+                                                <div class="outer mb-5 mt-5">
+                                                    <figure class="figure">
+                                                        <img src="img/figura9.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                        <figcaption class="figure-caption textFigure">Figura 9</figcaption>
+                                                    </figure>
+                                                </div>                                                      
+                                            </div>
+                                        </div>  
+                                        <div class="mb-5">
+                                            <div class="ml-3">
+                                                <p><b>C. LUGAR DE NACIMIENTO</b> (figura 10):</p>
+                                                <div class="ml-3">
+                                                    <p><b>C1. País, Departamento y Provincia:</b> Seleccione el lugar de nacimiento de la gestante.</p>
+                                                </div>
+                                            </div>
+                                            <div class="outer mb-5 mt-5">
+                                                <figure class="figure">
+                                                    <img src="img/figura10.jpg" class="figure-img rounded img-fluid d-block mx-auto" alt="">
+                                                    <figcaption class="figure-caption textFigure">Figura 10</figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="mb-5">
+                                            <div class="ml-3">
+                                                <p><b>D. OTROS</b> (figura 11):</p>
+                                                <div class="ml-3">
+                                                    <p><b>D1. Estudio:</b> Seleccione el nivel o grado de instrucción (analfabeta, primaria, secundaria, superior, superior no universitaria).</p>
+                                                    <p><b>D2. Años aprobados:</b> Elija el último año aprobado, en caso la gestante se encuentre cursando algún año escolar registre el último año aprobado.</p>
+                                                    <p><b>D3. Ocupación:</b> Seleccione la ocupación (profesional, empleada, comerciante, obrero, ama de casa, estudiante, sin ocupación y otros).</p>
+                                                    <p><b>D4. Estado civil:</b> Seleccione el estado civil actual (casada, conviviente, divorciada, soltera, viuda).</p>
+                                                    <p><b>D5. Etnia:</b> Seleccionar la etnia o grupo poblacional al cual pertenece la gestante. Este campo viene pre-elegido por defecto en Mestizo.</p>
+                                                </div>
+                                                <div class="outer mb-5 mt-5">
+                                                    <figure class="figure">
+                                                        <img src="img/figura11.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                        <figcaption class="figure-caption textFigure">Figura 11</figcaption>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-5">
+                                            <div class="ml-3">
+                                                <p><b>E. TIPOS DE SEGURO </b>(figura 12):</p>
+                                                <div class="ml-3">
+                                                    <p><b>E1. Tipos:</b> Seleccione el tipo de seguro que posee la gestante (SIS, ESSALUD, Privado, Sanidad, Otros).</p>
+                                                    <p><b>E2. Componente:</b> Se activa si escoge SIS, seleccione el tipo de componente (Semisubsidiado o Subsidiado).</p>
+                                                    <p><b>E3. Afiliación:</b> Se activa si escoge SIS, selecciones el tipo de afiliación (Nuevo, Inscrito o Afiliado).</p>
+                                                    <p><b>E4. Código de afiliación:</b> Digite código asignado por el SIS a la gestante.</p>
+                                                </div>
+                                            </div>
+                                            <div class="outer mb-5 mt-5">
+                                                <figure class="figure">
+                                                    <img src="img/figura12.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                    <figcaption class="figure-caption textFigure">Figura 12</figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="mb-5">
+                                            <div class="ml-3">
+                                                <p><b>F. MENSAJES DE TEXTO </b>(figura 13):</p>
+                                                <div class="ml-3">
+                                                    <p><b>F1. Recibí SMS:</b> Seleccionar si la paciente desea o no recibir mensajes de texto.</p>
+                                                    <p><b>F2. Celular Wawared:</b>Se agrega automáticamente el número del celular 1 que se registró previamente.</p>
+                                                    <p><b>F3. Compañía Celular:</b> Seleccionar el operador de celular al que pertenece el número.</p>
+                                                    <p><b>F4. Ver Texto De Consentimiento:</b> Aparece una ventana, en la cual se lee un consentimiento informado, para saber si la gestante desea recibir mensajes de texto o no.</p>
+                                                </div>
+                                                <div class="outer mb-5 mt-5">
+                                                    <figure class="figure">
+                                                        <img src="img/figura13.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                        <figcaption class="figure-caption textFigure">Figura 13</figcaption>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="datosAntecedentes">
+                                        <p><b>2. ANTECEDENTES:</b></p>
+                                        <div class="mb-5">
+                                            <p>En esta sección se registra la información acerca de los antecedentes (figura 13): (A) Familiares, (B) Médicos, (C) Embarazos previos, (D) Resumen, (E) Datos Ginecológicos y (F) Vacunas. Se detallará cada una de sus partes.</p>
+                                            <div class="outer mb-5 mt-5">
+                                                <figure class="figure">
+                                                    <img src="img/figura14.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                    <figcaption class="figure-caption textFigure">Figura 14</figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="ml-3">
+                                                <p><b>A. ANTECEDENTES FAMILIARES </b>(figura 15):</p>
+                                                <p>Pulse el botón verde Modificar Antecedentes Familiares, se abre la ventana con las opciones.</p>
+                                                <div class="ml-3">
+                                                    <p><b>A1. Niega:</b> Marque la casilla si la gestante no menciona algún antecedente.</p>
+                                                    <p><b>A2. Diagnósticos frecuentes:</b> Marque la casilla del diagnóstico, puede elegir más de uno.</p>
+                                                    <p><b>A3. Relación de parentesco:</b> Seleccione el grado de parentesco, puede elegir más de uno.</p>
+                                                    <p><b>A4. Observación:</b> Digite información adicional que usted crea necesaria. NO es obligatorio.</p>
+                                                    <p><b>A5. Barra de CIE-10: </b> Busque el diagnóstico que necesita en el listado de CIE-10, ingrese el nombre o código del CIE-10, seleccione el diagnóstico, aparecerá en la parte inferior, continúe con los pasos anteriores.</p>
+                                                    <p><b>A6. Regresar a los antecedentes:</b> SPermite retornar a la sección antecedente. NO guarda los cambios.</p>
+                                                    <p><b>A7. Guardar:</b> Terminado el registro pulse este botón que guardará la información.</p>
+                                                    <p><b>A8. Eliminar:</b> En caso desea eliminar un antecedente, retorne a la página de antecedentes, pulse el botón <b>Modificar Antecedentes Familiares</b>, aparece el botón rojo de Eliminar, pulse el botón y guarde.</p>
+                                                </div>
+                                            </div>
+                                            <div class="outer mb-5 mt-5">
+                                                <figure class="figure">
+                                                    <img src="img/figura15.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                    <figcaption class="figure-caption textFigure">Figura 15</figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="mb-5">
+                                            <div class="ml-3">
+                                                <p><b>B. ANTECEDENTES MÉDICOS </b>(figura 16):</p>
+                                                <p>Para ingresar datos en esta sección debe pulsar el botón verde Modificar Antecedentes Médicos, seguidamente se abre la ventana con las opciones.</p>
+                                                <div class="ml-3">
+                                                    <p><b>B1. Niega:</b> Seleccione el nivel o grado de instrucción (analfabeta, primaria, secundaria, superior, superior no universitaria).</p>
+                                                    <p><b>B2. Diagnósticos frecuentes</b> Marque la casilla si la gestante reporta un diagnóstico que se encuentra en la lista.</p>
+                                                    <p><b>B3. Observación:</b> Digite información adicional que usted crea necesaria. NO es obligatorio.</p>
+                                                    <p><b>B4. Barra de CIE-10:</b> Busque el diagnóstico que necesita en el listado de CIE-10, ingrese el nombre o código del CIE-10, seleccione el diagnóstico, aparecerá en la parte inferior, continúe con los pasos anteriores.</p>
+                                                    <p><b>B5. Regresar a los antecedentes:</b> Permite retornar a la sección antecedente. NO guarda los cambios.</p>
+                                                    <p><b>B6. Guardar: </b>Terminado el registro pulse este botón que guardará la información.</p>
+                                                    <p><b>B7. Eliminar: </b>En caso desea eliminar un antecedente, retorne a la página de antecedentes, pulse el botón <b>Modificar Antecedentes Médicos</b>, aparece el botón rojo de Eliminar, pulse el botón y guarde.</p>   
+                                                </div>
+                                            </div>
+                                            <div class="outer mb-5 mt-5">
+                                                <figure class="figure">
+                                                    <img src="img/figura16.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                    <figcaption class="figure-caption textFigure">Figura 16</figcaption>
+                                                </figure>
+                                            </div>       
+                                        </div>
+                                        <div class="mb-5">
+                                            <div class="ml-3">
+                                                <p><b>C. EMBARAZOS PREVIOS</b> (figura 17):</p>
+                                                <p>En esta sección podrá registrar el historial obstétrico de la gestante. Se registra todos los embarazos previos (vaginal, cesárea, aborto, aborto molar, óbito, ectópico) que tuvo la paciente.</p>
+                                                <p>Para ingresar datos en esta sección debe pulsar el botón verde Agregar Datos Embarazos Previos, seguidamente se abre la ventana con las opciones,</p>
+                                                <div class="ml-3">
+                                                    <p><b>C1. Tipo:</b>Seleccione si el embarazo fue <b><i>Único o Múltiple.*</i></b> Si es múltiple aparece un ícono <b><i>Más (+)</i></b> donde tendrá que pulsar el número de veces que fue ese embarazo.</p>
+                                                    <p>Múltiple: Cargará una o más ventanas, ingrese los datos por feto.</p>
+                                                    <p><b>C2. Terminación:</b> Se activan y desactivan diferentes opciones para un ingreso fácil de datos, los tipos de son: Parto Vaginal, Cesárea, Aborto, Aborto moral, Óbito, Ectópico.</p>
+                                                    <p><b>C3. Aborto:</b>La opción será activará siempre y cuando se elija en Terminación: <b><i>Aborto</i></b> o <b><i>Aborto Molar</i></b>. Esta opción presenta los diferentes tipos de Aborto elija uno de ellos (Completo, Incompleto, Séptico y Frustro retenido).</p>
+                                                    <p><b>C4. Edad Gestacional:</b>Ingrese la edad gestacional del embarazo, estas son en semanas de gestación.</p>
+                                                    <p><b>C5. Lugar:</b> Seleccione el lugar del parto, estos pueden ser <b><i>Hospitalario o Domiciliario</i></b>.</p>
+                                                    <p><b>C6. Fecha:</b> Seleccione el día, el mes y el año del parto.</p>
+                                                    <p><b>C7. Vive:</b> Seleccione si el feto vive o no después del parto. Esta opción se activa o desactiva dependiendo del tipo de Terminación.</p>
+                                                    <p><b>C8. Muerte:</b> Si en tipo de Terminación selecciona <b><i>Óbito</i></b> esta opción muestra que el feto <b>Nació muerto</b>, en todas las demás opciones de Terminación se muestra como <b><i>No Aplica</i></b>. Esta opción NO es elegible.</p>
+                                                    <p><b>C9. Peso:</b> Digite el peso en gramos del feto. Esta opción se activa o desactiva dependiendo del tipo de <i>Terminación</i>.</p>
+                                                    <p><b>C10. Sexo:</b> Seleccione el sexo del feto. Esta opción se activa o desactiva dependiendo del tipo de <i>Terminación</i>.</p>
+                                                    <p><b>C11. Lactancia:</b> Seleccione una de las opciones según la información que brinde la gestante o según el criterio del profesional.</p>
+                                                    <p><b>C12. Observación:</b> Digite información adicional que usted crea necesaria. NO es obligatorio.</p>
+                                                    <p><b>C13. Cancelar:</b> Permite regresar a la página de <i>Antecedentes</i>, NO guarda la información ingresada.</p>
+                                                    <p><b>C14. Guardar</b> Permite guardar la información ingresada.</p>
+                                                    <p><b>C15. Editar</b> Permite editar la información previamente guardada.</p>
+                                                    <p><b>C16. Eliminar</b> Marque este casillero si desea eliminar el embarazo previamente guardado.</p>
+                                                </div>
+                                            </div>
+                                            <p>Terminado el ingreso y guardado de los datos, visualizará el Cuadro de Resumen de Embarazos Previos (figura 17), donde se visualizan todas las gestaciones previas de la paciente y donde se encuentra el botón Editar.</p>
+                                            <div class="outer mb-5 mt-5">
+                                                <figure class="figure">
+                                                    <img src="img/figura17.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                    <figcaption class="figure-caption textFigure">Figura 17</figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="outer mb-5 mt-5">
+                                                <figure class="figure">
+                                                    <img src="img/figura18.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                    <figcaption class="figure-caption textFigure">Figura 18</figcaption>
+                                                </figure>
+                                            </div>    
+                                        </div>
+                                        <div class="mb-5">
+                                            <div class="ml-3">
+                                                <p><b>D. RESUMEN</b> (figura 19):</p>
+                                                <p>Terminado de ingresar los antecedes de Embarazos previos, se podrá apreciar el gráfico de <b>Resumen</b> a través de un diagrama, donde aparece automáticamente el númerosero de gestaciones de la paciente.</p>                    
+                                            </div>
+                                            <div class="outer mb-5 mt-5">
+                                                <figure class="figure">
+                                                    <img src="img/figura19.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                    <figcaption class="figure-caption textFigure">Figura 19</figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="mb-5">
+                                            <div class="ml-3">
+                                                <p><b>E. DATOS GINECOLÓGICOS</b> (figura 20):</p>
+                                                <div class="ml-3">
+                                                    <p><b>1. Menarquia Edad:</b> Registre la edad de la primera menstruación.</p>
+                                                    <p><b>2. Andría:</b> Registre el número de parejas sexuales que mencione la gestante.</p>
+                                                    <p><b>3. Edad primer relación sexual:</b> Registre la edad de la primera relación sexual.</p>
+                                                    <p><b>4. Régimen Catemeneal :</b> Si la gestante <b>NO</b> tiene un <b><i>Régimen Regular (Irregular)</i></b> desmarque la casilla y continúe con los datos siguientes. Pero si presenta un <b>Régimen Regular</b> debe ingresar la <b><i>Duración del Ciclo Menstrual</i></b> (en días) y el  <b><i>Ciclo de Menstruación</i></b> (en días).</p>
+                                                    <p><b>5. Último PAP</b> </p>
+                                                    <div class="ml-3">
+                                                        <p><b>a. Fecha último Papanicolaou:</b> Registre la fecha del último PAP que consigna la gestante.</p>
+                                                        <p><b>b. Resultado de Papanicolaou:</b> Seleccione el resultado del último PAP, elegir entre Normal o Anormal. Si el resultado es Anormal podrá registrar las Observaciones que usted crea necesario.</p>
+                                                        <p><b>c. Lugar Papanicolaou:</b> Registre el lugar donde se realizó el último PAP.</p>
+                                                    </div>
+                                                    <p><b>6. Último Método anticonceptivo utilizado:</b> Seleccione el último método utilizado por la gestante, puede elegir más de una opción. También registre si el embarazo actual utilizó algún método anticonceptivo, para ello marque elija una de las opciones en Embarazo usando MAC.</p>
+                                                </div>
+                                            </div>
+                                            <div class="outer mb-5 mt-5">
+                                                <figure class="figure">
+                                                    <img src="img/figura20.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                    <figcaption class="figure-caption textFigure">Figura 20</figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="mb-5">
+                                            <div class="ml-3">
+                                                <p"><b>F. VACUNAS</b> (figura 21):</p>
+                                                <P">Registre la información acerca de las vacunas que se aplicó la gestante.</P>
+                                                <div class="ml-3">
+                                                    <p><b>1. Vacunas previas:</b> Marque la opción según carnet de vacunación de la gestante.</p>
+                                                    <p><b>2. Antitetánicas:</b> Registre el número de dosis aplicadas de la vacuna antitetánica.</p>
+                                                    <div class="ml-3">
+                                                        <p><b>a. Número dosis anteriormente:</b> Registre la cantidad de dosis previas de la vacuna, si refiere que no se aplicó ninguna dosis colocar 0.</p>
+                                                        <p><b>b. </b> En los siguientes campos deberá escribir el mes de embarazo cuando la gestante se aplica la vacuna. Si la gestante no se aplicó marque la opción NO, si cree necesario marque la opción N/A.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-5">
+                                            <div class="ml-3">
+                                                <p><b>G. CANCELAR</b> (figura 21):</p>
+                                                <P>Pulse este botón y cancele todo registro, regresará a la pantalla anterior. NO guarda los cambios.</P>
+                                            </div>
+                                        </div> 
+                                        <div class="mb-5">
+                                            <div class="ml-3">
+                                                <p><b>H. GUARDAR</b> (figura 21):</p>
+                                                <P>Pulse este botón y guarda todos los datos registrados. Pasará automáticamente a la pantalla siguiente.</P>
+                                            </div>
+                                        </div>
+                                        <div class="outer mb-5 mt-5">
+                                            <figure class="figure">
+                                                <img src="img/figura21.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                <figcaption class="figure-caption textFigure">Figura 21</figcaption>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p><b>3. REGISTRO DE EMBARAZO ACTUAL</b></p>
+                                        <div class="mb-5">
+                                            <div class="ml-3">
+                                                <p><b>A. DATOS GENERALES</b> (figura 22):</p>
+                                                <div class="ml-3">
+                                                    <p><b>1. Apellidos Paternos y Maternos del Padre:</b> Digite el(los) apellidos paternos y maternos de padre del bebé.</p>
+                                                    <p><b>2. Nombres del Padre</b> Digite los nombres del padre del bebe.</p>
+                                                    <p><b>3. Fecha de Última Mestruación - FUM</b> Registre la fecha de la última mestruación.</p>
+                                                    <p><b>4. ¿FUM es confiable?</b> Seleccione si la fecha de FUM es confiable.</p>
+                                                    <p><b>5. ¿Captada?</b> Seleccione si la gestante fue captada por algún promotor o profesional de salud para acudir a sus Atenciones prenatales.</p>
+                                                    <p><b>6. Referida</b> Seleccione si la gestante viene de otro establecimiento de salud</p>
+                                                    <p><b>7. Talla</b> Regristre la talla, en centímtros.</p>
+                                                    <p><b>8. Peso habitual antes del embarazo</b> Registre el peso que usual de la gestante antes de su embarazo.</p.>
+                                                    <p><b>9. IMC</b> Muestra el resultado del indice de masa corporal, el campo generado automáticamente.</p>
+                                                    <p><b>10. Edad gestional actual por Fum</b> El campo muestra las <i>semanas y días de Gestación por FUM.</i> El campo es calculado automáticamente.</p>
+                                                    <p><b>11. Fecha Probable de parto por FUM</b> El campo muestra la <i>Fecha Probable del Parto por FUM.</i> El campo es calculado automáticamente.</p>
+                                                </div>
+                                                <div class="outer mb-5 mt-5">
+                                                    <figure class="figure">
+                                                        <img src="img/figura22.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                        <figcaption class="figure-caption textFigure">Figura 22</figcaption>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-5">
+                                            <div class="ml-3">
+                                                <p><b>B. VIOLENCIA / GÉNERO</b></p>
+                                                <p>Permite realizar el tamizaje sobre violencia familiar y/o género, antes de formularle alguna pregunta sugerimos leer el encabezado: <b><i>Debido a que la Violencia Familiar es dañina para la salud de las personas, en todos los programas de salud estamos preguntando a los pacientes si actualmente están en esta  situación para participar con ellas en la solución de su problema, por favor; conteste a estas preguntas.</i></b> </p>
+                                                <div class="ml-3">
+                                                    <p><b>1. Preguntas:</b> (figura 23): Realice las tre spreguntas que se muestran, si la respuesta es afirmativa se desplegará en campo ¿Quién?, donde puede registrar el parentesco o nombre del agresor.</p>
+                                                    <p>También se desplegará la ficha de tamizaje con los tipos de violencia: Físico y Psicológico.</p>
+                                                    <div class="ml-3">
+                                                        <p><b>a. Físico:</b> Marque las casillas que crea conveniente según su criterio profesional.</p>
+                                                        <p><b>b. Psicológico:</b> Marque las casillas que crea conveniente según su criterio profesional.</p>
+                                                    </div>
+                                                    <p><b>2. Usa Drogas</b> (Figura 23): Se realiza la pregunta sobre el uso de drogas, luego se hace el registro de la respuesta.</p>
+                                                    <p><b>3. Número de cigarros</b> (figura 23): Se realiza la pregunta sobre el consumo de cigarros, luego se hace el registro de la respuesta.</p>
+                                                </div>
+                                            </div>
+                                            <div class="outer mb-5 mt-5">
+                                                <figure class="figure">
+                                                    <img src="img/figura23.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                    <figcaption class="figure-caption textFigure">Figura 23</figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="mb-5">
+                                            <div class="ml-3">
+                                                <p><b>C. HOSPITALIZACIÓN</b> (figura 24):</p>
+                                                <div class="ml-3">
+                                                    <p><b>1. Registro: </b>Seleccione si la gestante fue Hospitalizada en algún momento durante su embarazo.</p>
+                                                    <p><b>2. Fecha:</b> Registre la fecha de hospitalización.</p>
+                                                    <p><b>3. Hospitalización diagnósticos: </b>Registre el o los diagnóstico(s) de la hospitalización. Puede elegir uno o más diagnósticos. Ingrese en la barra de CIE-10 el código o nombre del diagnóstico para su elección.</p>
+                                                </div>
+                                            </div>
+                                            <div class="outer mb-5 mt-5">
+                                                <figure class="figure">
+                                                    <img src="img/figura24.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                    <figcaption class="figure-caption textFigure">Figura 24</figcaption>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="mb-5">
+                                            <div class="ml-3">
+                                                <p><b>D. EMERGENCIA</b> (figura 25):</p>
+                                                <div class="ml-3">
+                                                    <p><b>D1. Registro:</b> Seleccione si la gestante fue atendida por Emergencia en algún momento durante su embarazo.</p>
+                                                    <p><b>D2. Fecha:</b> Registre la fecha que ingreso por Emergencia</p>
+                                                    <p><b>D3. Fecha diagnósticos:</b> Registre el o los diagnóstico(s). Puede elegir más de uno. Ingrese en la barra de CIE-10 el código o nombre del diagnóstico para su elección.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-5">
+                                            <div class="ml-3">
+                                                <p><b>E. CANCELAR</b></p>
+                                                <p>Pulse este botón y cancele todo registro, regresará a la pantalla anterior. NO guarda los cambios.</p>
+                                            </div>
+                                        </div>
+                                        <div class="mb-5">
+                                            <div class="ml-3">
+                                                <p><b>F. GUARDAR</b></p>
+                                                <p>Pulse este botón y guarda todos los datos registrados. Pasará automáticamente a la pantalla siguiente.</p>
+                                            </div>
+                                        </div>
+                                        <div class="outer mb-5 mt-5">
+                                            <figure class="figure">
+                                                <img src="img/figura25.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                <figcaption class="figure-caption textFigure">Figura 25</figcaption>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p><b>4. AGREGAR ECOGRAFÍA AL EMBARAZO ACTUAL:</b></p>
+                                        <p>El sistema permite registrar la ecografía del embarazo actual (figura 26). NO es obligatorio su registro. Pulse el botón:</p>
+                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto" src="img/agregar_ecografia.jpg" alt="">
+                                        <div class="mb-5">
+                                            <div class="ml-3">
+                                                <p><b>A. FECHA DE ECOGRAFÍA: </b>Registre la fecha en que se realizó la ecografía.</p>
+                                                <p><b>B. EG SEMANA: </b>Registre la edad gestacional en semanas de acuerdo al resultado de la ecografía.</p>
+                                                <p><b>C. EG DÍA: </b>Registre los días de semana de acuerdo al resultado de la ecografía.</p>
+                                                <p><b>D. LUGAR: </b>Digite donde fue tomada la ecografía.</p>
+                                                <p><b>E. TIPO DE EMBARAZO: </b>Seleccione entre Único o Múltiple el tipo de embarazo.</p>
+                                                <p><b>F. FECHA PROBABLE DE PARTO: </b>El campo muestra la <i>Fecha Probable de Parto por ECO.</i> Este campo es calculado automáticamente.</p>
+                                                <p><b>G. EDAD GESTACIONAL ACTUAL: </b>El campo muestra la <i>Edad Gestacional Actual por ECO.</i> Este campo es calculado automáticamente.</p>
+                                                <p><b>H. OBSERVACIÓN: </b>Agregue información adicional. NO ES OBLIGATORIO.</p>
+                                                <p><b>I. BIOMETRIA FETAL: </b>(PERIMETRO CEFALICO): Registre el valor del perímetro cefálico. NO ES OBLIGATORIO.</p>
+                                                <p><b>J. LIQUIDO AMNIOTICO: </b>Registre el valor del líquido amniótico. NO ES OBLIGATORIO.</p>
+                                                <p><b>K. INDICE DE LIQUIDO AMNIOTICO: </b>Registrar el valor porcentual del líquido amniótico.</p>
+                                                <p><b>L. INFORME CON PROBABLE MICROCEFALIA FETAL / CALCIFICACIÓN INTRACRANEAL: </b>Seleccionar la opción “SI” o “NO” según el resultado.</p>
+                                                <p><b>M. GUARDAR: </b>Pulse este botón y guarda todos los datos registrados. Pasará automáticamente a la pantalla siguiente.</p>
+                                                <p><b>N. CANCELAR: </b>Pulse este botón y cancele todo registro, regresará a la pantalla anterior. NO guarda los cambios.</p>
+                                            </div>
+                                        </div>
+                                        <div class="outer mb-5 mt-5">
+                                            <figure class="figure">
+                                                <img src="img/figura26.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                <figcaption class="figure-caption textFigure">Figura 26</figcaption>
+                                            </figure>
+                                        </div>
+                                    </div>     
+                                </div>  
+                            </section>
+                            <!-- atención prenatal -->
+                            <section class="ol">
+                                <div id="atencionPrenatal">
+                                    <p class="title">atención prenatal</p>
+                                    <p>En esta sección (figura 27 y 28) se registra las Atenciones prenatales del embarazo actual. Si se ha continuado desde el registro, la ventana de Atención aparecerá utomáticamente después de Agregar Ecografía. Si en caso accede por Buscar Gestante debe pulsar el botón verde Crear Nueva Atención. La ventana de Atención tiene diferentes opciones, algunas obligatorias otras no, los campos tienen alertas que serán activadas según vayamos avanzando en el registro de Atención.</p>
+                                    <div class="outer mb-5 mt-5">
+                                        <figure class="figure">
+                                            <img src="img/figura27.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                            <figcaption class="figure-caption textFigure">Figura 27</figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="outer mb-5 mt-5">
+                                        <figure class="figure">
+                                            <img src="img/figura28.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                            <figcaption class="figure-caption textFigure">Figura 28</figcaption>
+                                        </figure>
+                                    </div>
+                                    <img src="" alt="">
+                                    <div class="contentAtencion">
+                                        <p><b>1. ATENCIÓNES</b></p>
+                                        <div class="contenedor">
+                                            <div class="mb-5">
+                                                <div class="ml-3">
+                                                    <p><b>A. NUEVA ATENCIÓN</b></p>
+                                                    <div class="ml-3">
+                                                        <p><b>1. En las últimas semanas ha viajado:</b>  Marcar sí o no a la pregunta si la paciente viajo en las últimassemanas. (Figura 29)</p>
+                                                        <div class="outer mb-5 mt-5">
+                                                            <figure class="figure">
+                                                                <img src="img/figura29.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                                <figcaption class="figure-caption textFigure">Figura 29</figcaption>
+                                                            </figure>
+                                                        </div>
+                                                        <p><b>2. Fecha de atención:</b> Ingrese la fecha en la que se lleva a cabo la Atención prenatal. Campo obligatorio (figura 30).</p>
+                                                        <p><b>3. Peso Actual:</b> Registre el peso actual de la gestante. El peso debe ser ingresado en kilogramos, colocar “punto” para los decimales. Campo obligatorio (figura 30).</p>
+                                                        <p><b>4. IMC</b> Muestra el índice de masa corporal, también muestra un si el IMC se encuentra entre los valores normales o no. El campo es calculado automáticamente (figura 30)</p>
+                                                        <p><b>5. Temperatura</b> Registre la temperatura (figura 30).</p>
+                                                        <p><b>6. Presión sistólica:</b> Registre la presión arterial sistólica (figura 30).</p>
+                                                        <p><b>7. Presión diastólica:</b> Registre la presión arterial diastólica (figura 30).</p>
+                                                        <p><b>8. Pulso:</b> Registre el pulso (figura 30).</p>
+                                                        <p><b>9. Frecuencia respiratoria:</b>Registre la frecuencia respiratoria (figura 30).</p>
+                                                        <p><b>10. Altura uterina:</b> Registre la altura uterina obtenida (figura 30).</p>
+                                                        <p><b>11. FCF:</b> Registre la frecuencia cardiaca fetal (figura 28).</p>
+                                                        <p><b>12. Situación:</b> Seleccione una de las opciones sobre la situación del feto, las opciones son: longitudinal, transversal o N/A (figura 30).</p>
+                                                        <p><b>13. Presentación:</b> Seleccione una de las opciones sobre la presentación del feto, las opciones son: cefálico, podálico, o N/A (figura 30).</p>
+                                                        <p><b>14. Posición:</b> Seleccione una de las opciones sobre la posición del feto, las opciones son: derecho, izquierdo o N/A (figura 30).</p>
+                                                        <p><b>15. Movimientos fetales:</b> Seleccione una de las opciones sobre los <i>movimientos fetales</i>, las opciones son: sin movimiento, +, ++, +++, N/A (figura 31).</p>
+                                                        <p><b>16. Dinámica uterina:</b> Seleccione una de las opciones sobre la <i>dinámica uterina</i> ,las opciones son: sin dinámica, +, ++, +++, N/A (figura 31)</p>
+                                                        <div class="outer mb-5 mt-5">
+                                                            <div class="row">
+                                                                <div class="col-lg-6">
+                                                                    <figure class="figure">
+                                                                        <img src="img/figura30.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                                        <figcaption class="figure-caption textFigure">Figura 30</figcaption>
+                                                                    </figure>
+                                                                </div>
+                                                                <div class="col-lg-6">
+                                                                    <figure class="figure">
+                                                                        <img src="img/figura31.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                                        <figcaption class="figure-caption textFigure">Figura 31</figcaption>
+                                                                    </figure>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <p><b>17. Proteurina cualitativa: </b> Selecciona una de las opciones sobre la <i>proteinuria cualitativa</i> ,las opciones son: +, ++, +++, No se hizo (figura 31).</p>
+                                                        <p><b>18. Edemas:</b> Seleccione una de las opciones sobre los <i>edemas</i> que pueda tener la gestante, las opcines son: sin edemas, +, ++, +++ (figura 31).</p>
+                                                        <p><b>19. Reflejos:</b> Seleccione una de las opciones de sobre de examen de <i>reflejos</i>, las opciones son: 0, +, ++, +++ (figura 31).</p>
+                                                        <p><b>20. Examen de pezón: </b>Seleccione una de las opciones sobre el examen de <i>Examen de pezón</i>, las opciones son: formado, no formado, sin examen (figura 31).</p>
+                                                        <p><b>21. Indicación de Sulfato Ferroso:</b> Ingrese el númerode tabletas de sulfato ferroso indicados (figura 31).</p>
+                                                        <p><b>22. Indicación de Calcio:</b> Ingrese el número de tabletas de calcio indicados (figura 31).</p>
+                                                        <p><b>23. Indicación de Ácido Fólico:</b> Ingrese el número de tabletas de ácido fólico indicados (figura 31).</p>
+                                                        <p><b>24. Indicación de Sulfato Ferros / Ácido Fólico:</b> Ingrese el número de tabletas combinadas indicadas (figura 31).</p>
+                                                        <p><b>25. Perfil Biofísico:</b> Seleccione las opciones sobre el examen de pefil biofísico fetal, las opciones son: 4, 6, 8, 10, no se hizo, no aplica. El campo no es obligatorio (figura 32).</p>
+                                                        <div class="outer mb-5 mt-5">
+                                                            <div class="row">
+                                                                <div class="col-lg-6">
+                                                                    <figure class="figure">
+                                                                        <img src="img/figura32.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                                        <figcaption class="figure-caption textFigure">Figura 32</figcaption>
+                                                                    </figure>
+                                                                </div>
+                                                                <div class="col-lg-6">
+                                                                    <figure class="figure">
+                                                                        <img src="img/figura33.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                                        <figcaption class="figure-caption textFigure">Figura 33</figcaption>
+                                                                    </figure>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <p><b>26. Próxima cita:</b> Seleccione la fecha para la próxima cita (figura 32).</p>
+                                                        <p><b>27. Plan de parto*:</b> Se registra la información acerca del <i>plan de parto</i>, esta opción la puede desarrollar en cualquier Atención, se abre otra ventana para su registro (figura 32).</p>
+                                                        <p><b>28. Número de formato SIS:</b> Registre en número correspondiente a la ficha de atención del Seguro Integral de Salud (figura 32).</p>
+                                                        <p><b>29. Orientación consejería: </b>Marque las consejerías que se han brindado, en caso no se realizó marque no se hizo o no aplica (figura 32).</p>
+                                                        <p><b>30. Interconsultas:</b> Marque e ingrese la fecha de interconsultas a la cual ha sido derivada la gestante (figura 33).</p>
+                                                        <p><b>31. Psicoprofilaxis:</b> Ingrese la fecha en la que la gestante realizó la psicoprofilaxis (figura 34).</p>
+                                                        <div class="outer mb-5 mt-5">
+                                                            <figure class="figure">
+                                                                <img src="img/figura34.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                                <figcaption class="figure-caption textFigure">Figura 34</figcaption>
+                                                            </figure>
+                                                        </div>  
+                                                        <p><b>32. Cuadro de edad gestacional:</b> Seleccione la edad gestacional para la atención. Es de acuerdo a la desición del prefesional (figura 35).</p>
+                                                        <p><b>33. Regresar a los Atenciones:</b> Pulse este botón y cancele todo registro, regresará a la pantalla anterior. NO guarda los cambios.</p>
+                                                        <p><b>34. Guardar:</b> Pulse este botón y guarda todos los datos registrados. Pasará automáticamente a la pantalla siguiente.</p>
+                                                        <div class="outer mb-5 mt-5">
+                                                            <figure class="figure">
+                                                                <img src="img/figura35.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                                <figcaption class="figure-caption textFigure">Figura 35</figcaption>
+                                                            </figure>
+                                                        </div>
+                                                    </div>
+                                                </div>   
+                                            </div>
+                                            <!-- plan de parto -->
+                                            <div>
+                                                <p><b>* PLAN DE PARTO:</b></p>
+                                                <p>La ventana muestra (figura 36) los campos a registrar sobre la entrevista del Plan de Parto. Para ingresar pulse el botón:</p>
+                                                <div class="mb-5">
+                                                    <div class="ml-3">
+                                                        <p><b>A. PRIMERA ENTREVISTA:</b></p>
+                                                        <div class="ml-3">
+                                                            <p><b>1. Fecha:</b> Registre la fecha de la primera entrevista.</p>
+                                                            <p class="ml-4"><b>2. Tiempo de llegada al establecimiento:</b> Digite el tiempo (en minutos) de la distancia entre el domicilio de la gestante y el establecimiento.</p>
+                                                            <p><b>3. Atención de parto:</b> Seleccione una de las opciones según la respuesta de la gestante.</p>
+                                                            <p><b>4. Razones:</b> Describa las razones que refiera la gestante.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-5">
+                                                    <div class="ml-3">
+                                                        <p><b>B. SEGUNDA ENTREVISTA:</b></p>
+                                                        <div class="ml-3">
+                                                            <p><b>1. Fecha:</b>  Registre la fecha de la segunda entrevista. Puede agregar observaciones si es necesario.</p>
+                                                            <p><b>2. Atención del parto:</b> Seleccione una de las opciones según la respuesta de la gestante. Puede agregar observaciones si es necesario.</p>
+                                                            <p><b>3. Posición preferida para el parto:</b> Seleccione una de las opciones según la respuesta de la gestante. Puede agregar observaciones si es necesario.</p>
+                                                            <p><b>4. Transporte a utilizar::</b> Seleccione una de las opciones según la respuesta de la gestante. Puede agregar observaciones si es necesario.</p>
+                                                            <p><b>5. Tiempo de llegada al establecimiento:</b> Ingrese los dos campos (1ra opción, 2da opción). Puede agregar observaciones si es necesario.</p>
+                                                            <p><b>6. Acompañamiento:</b> Registre el nombre o parentesco del acompañante. Puede agregar observaciones si es necesario.</p>
+                                                            <p><b>Cuidado de los hijos:</b>Registre el nombre o parentesco del acompañante. Puede agregar observaciones si es necesario.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-5">
+                                                    <div class="ml-3">
+                                                        <p><b>C. TRANSFUSIÓN SANGUÍNEA:</b></p>
+                                                        <p>Registre los datos de los posibles donadores, los campos a registrar son: nombres y apellidos, tipo de sangre, domicilio, edad y parentesco.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-5">
+                                                    <div class="ml-3">
+                                                        <p><b>D. OBSERVACIONES:</b></p>
+                                                        <p>Registre las observaciones que crea conveniente.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-5">
+                                                    <div class="ml-3">
+                                                        <p><b>E. GUARDAR:</b></p>
+                                                        <p>Pulse el botón y guardará toda la información ingresada.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="outer mb-5 mt-5">
+                                                    <figure class="figure">
+                                                        <img src="img/figura36.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                        <figcaption class="figure-caption textFigure">Figura 36</figcaption>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="mb-5">
+                                                <div class="ml-3">
+                                                    <p><b>B. SÍNTOMAS</b></p>
+                                                    <p>Terminado de guardar la Atención, pasará a la pantalla de Síntomas (figura 37), esta ventana tiene las siguientes opciones:</p>
+                                                    <div class="ml-3">
+                                                        <p><b>1. Asistomática:</b> Marque la casilla si la gestante no menciona algún síntoma.</p>
+                                                        <p><b>2. Síntomas frecuentes:</b> Marque el casillero del síntoma, puede elegir más de uno.</p>
+                                                        <p><b>3. Observación:</b> Digite información adicional que usted crea necesaria. NO es obligatorio.</p>
+                                                        <p><b>4. Barra de CIE-10:</b> Busque el síntoma que necesita basado en el listado de CIE-10, ingrese el nombre o código del CIE-10, seleccione el diagnóstico, aparecerá en la parte inferior, continúe con los pasos anteriores.</p>
+                                                        <p><b>5. Regresar a la Atención:</b> Permite retornar a la sección anterior. NO guarda los cambios.</p>
+                                                        <p><b>6. Guardar:</b> Terminado el registro pulse este botón que guardará la información y lo llevará a la siguiente ventana.</p>
+                                                        <p><b>7. Eliminar:</b> En caso desea eliminar un síntoma, retorne a la página de Atención, pulse el botón Síntomas, aparece el botón rojo de Eliminar, pulse el botón y guarde.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="outer mb-5 mt-5">
+                                                    <figure class="figure">
+                                                        <img src="img/figura37.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                        <figcaption class="figure-caption textFigure">Figura 37</figcaption>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="mb-5">
+                                                <div class="ml-3">
+                                                    <p><b>C. EXAMEN FÍSICO</b></p>
+                                                    <p>Terminado de guardar los síntomas, pasará a la pantalla de Examen físico, esta ventana tiene las siguientes opciones:</p>
+                                                    <div class="ml-3">
+                                                        <p><b>1. Examen por Sistemas</b> (figura 38): Registre la evaluación realizada, seleccione Conservado o Patológico según su criterio profesional. Agregue información adicional en Observación si es necesario.</p>
+                                                        <p><b>2. Nivel de Conciencia</b> (figura 38): Seleccione una opción según la evaluación del nivel de conciencia, teniendo como opciones: lucidez, obnubilación, opor, coma y otros.</p>
+                                                        <p><b>3. Especuloscopía</b> (figura 38): Si realiza el examen marque SI, se desplegará las opciones para el ingreso de información, estas opciones (vagina, cérvix, fondo de saco y observaciones) deben de ser descritas en los campos en blanco de cada opción.</p>
+                                                        <div class="outer mb-5 mt-5">
+                                                            <figure class="figure">
+                                                                <img src="img/figura38.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                                <figcaption class="figure-caption textFigure">Figura 38</figcaption>
+                                                            </figure>
+                                                        </div>
+                                                        <p><b>4. Tacto vaginal</b>(figura 39): Si realiza el examen marque SI, se desplegará las opciones para el ingreso de la información:</p>
+                                                        <div class="ml-4">                                                            
+                                                            <p><b>a. Vagina:</b> Describa la evaluación.</p>
+                                                            <p><b>b. Útero:</b> Describa la evaluación.</p>
+                                                            <p><b>c. Hallazgos:</b> Describa los hallazgos encontrados.</p>
+                                                            <p><b>d. Dilatación:</b> Seleccione una opción.</p>
+                                                            <p><b>e. Incorporación:</b> Seleccione una opción.</p>
+                                                            <p><b>f. Altura de presentación:</b> Seleccione una opción.</p>
+                                                            <p><b>g. Membranas:</b> Elija una de las dos opciones.</p>
+                                                            <p><b>h. Anexos:</b> Ingrese información adicional que crea conveniente.</p>
+                                                        </div>
+                                                        <div class="outer mb-5 mt-5">
+                                                            <figure class="figure">
+                                                                <img src="img/figura39.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                                <figcaption class="figure-caption textFigure">Figura 39</figcaption>
+                                                            </figure>
+                                                        </div>
+                                                        <p><b>5. Test de Bishop</b>(figura 39): Para aplicar el test deberá marcar la opción ¿Aplicar el test de Bishop?, se activaran las opciones con cinco parámetros de evaluación, seleccione las opciones según su criterio, al final aparece de manera automática la Escala de Bishop.</p>
+                                                        <p><b>6. Pelvimetría</b> figura 39): Seleccione la opción según su evaluación, puede agregar información adicional en el campo Observación.</p>
+                                                        <p><b>7. Examen ginecológico</b> (figura 38): Si realiza el examen marque SI, se desplegará las opciones para ser registrados.</p>
+                                                        <div class="ml-4">                                                            
+                                                            <p><b>a. Dolor:</b> Seleccione según la evaluación realizada, las opciones son: leve, moderado o severo.</p>
+                                                            <p><b>b. Posición:</b> Seleccione según la evaluación realizada, las opciones son: anteversoflexo, medio, retroversoflexo.</p>
+                                                            <p><b>c. Restos:</b> Seleccione según la evaluación realizada, las opciones son: escasos, regular, abundante.</p>
+                                                            <p><b>d. Culdocentesis:</b> Seleccione según la evaluación realizada, las opciones son: si o no.</p>
+                                                            <p><b>e. Fondo de saco:</b> Seleccione según la evaluación realizada, las opciones son: libre u ocupado.</p>
+                                                            <p><b>f. Mal olor:</b> Seleccione según la evaluación realizada, las opciones: si o no.</p>
+                                                            <p><b>g. Vulva:</b> Describa los hallazgos encontrados en el campo en blanco.</p>
+                                                            <p><b>h. Genitales externos:</b> Describa los hallazgos encontrados en el campo en blanco.</p>
+                                                            <p><b>i. Vagina:</b> Describa los hallazgos encontrados en el campo en blanco.</p>
+                                                        </div>
+                                                        <p><b>8. Regresar a la Atención:</b> Permite retornar a la sección anterior. NO guarda los cambios.</p>
+                                                        <p><b>9. Guardar</b> Terminado el registro pulse este botón que guardará la información y lo llevará a la siguiente ventana.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="outer mb-5 mt-5">
+                                                    <figure class="figure">
+                                                        <img src="img/figura40.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                        <figcaption class="figure-caption textFigure">Figura 40</figcaption>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="mb-5">
+                                                <div class="ml-3">
+                                                    <p><b>D. LABORATORIO</b></p>
+                                                    <p>Terminado de guardar el examen físico, pasará a la pantalla de Laboratorio (figura 41), las opciones en esta ventana no son obligatorios, puede pasar a la siguiente ventana sólo pulsando el botón Guardar. La ventana Laboratorio tiene las siguientes opciones:</p>
+                                                    <div class="ml-3">
+                                                        <p><b>1. Cuadro de Pruebas Rápidas</b> Registre los resultados de las pruebas rápidas de Sífilis y VIH. Marque el resultado de la prueba, a continuación registre la fecha de la prueba y finalmente describa alguna observación que crea necesario.</p>
+                                                        <p><b>2. Grupo y factor sanguíneo</b> Registre el tipo de grupo y factor sanguíneo.</p>
+                                                        <p><b>3. Cuadro de Examen de Hemoglobina:</b> Registre el (los) resultados del examen de hemoglobina obtenido a través de una prueba rápida o una prueba en laboratorio.</p>
+                                                        <p><b>4. Cuadro de Glicemia:</b> Registre los resultados de Glicemia (glucosa en sangre) obtenido durante el embarazo. Marque la opción según la interpretación del resultado, registre la fecha, si es necesario podrá escribir alguna observación.</p>
+                                                        <p><b>5. Cuadro de Examen de Orina:</b> Registre el resultado los exámenes de orina realizados a la gestante. Marque las opciones según la interpretación del resultado, registre la fecha, puede agregar observaciones si es necesario.</p>
+                                                        <p><b>6. Cuadro de Pruebas Serológicas:</b> Registre los resultados de las diversas pruebas serológicas tales como: VDRL/RPR, prueba de ELISA, PCR Zika, TORCH Marque los resultados de las diferentes pruebas, registre la fecha, agregue observaciones si es necesario.</p>
+                                                        <p><b>7. Exámenes citológicos:</b> Registre los resultados de los siguientes exámenes: Papanicolaou (PAP), Inspección Visual con Ácido acético (IVA), Colposcopia,</p>
+                                                        <p><b>8. Otros exámenes:</b> Si se necesite registrar más resultados de otros análisis de laboratorio, pulsar el botón <b><i>“MOSTRAR MÁS PRUEBAS”</i></b> se desplegara un listado de diferentes análisis de laboratorio. Entre los exámenes que puede registrar tenemos: IFI/Western Blot, HTLV 1, TORCH, Gota gruesa, Malaria prueba rápida, Fluorescencia malaria, Urocultivo, BK en esputo, Listeria, Tamizaje hepatitis B, Tolerancia glucosa, FTA Abs, THPA. <br> Registre los resultados, registre la fecha, agregue observaciones si es necesario.</p>
+                                                        <p><b>9. Regresar a la Atención:</b> Permite retornar a la sección anterior. NO guarda los cambios.</p>
+                                                        <p><b>10. Guardar:</b> Terminado el registro pulse este botón que guardará la información y lo llevará a la siguiente ventana.</p>
+                                                    </div>                                                    
+                                                </div>
+                                                <div class="outer mb-5 mt-5">
+                                                    <figure class="figure">
+                                                        <img src="img/figura41.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                        <figcaption class="figure-caption textFigure">Figura 41</figcaption>
+                                                    </figure>
+                                                </div>
+                                                <div class="outer mb-5 mt-5">
+                                                    <figure class="figure">
+                                                        <img src="img/figura42-2.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                        <figcaption class="figure-caption textFigure">Figura 41</figcaption>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="mb-5">
+                                                <div class="ml-3">
+                                                    <p><b>E. DIAGNÓSTICO</b></p>
+                                                    <p>Terminado de guardar los exámenes de Laboratorio pasará a la pantalla de Diagnóstico, esta ventana tiene las siguientes opciones:</p>
+                                                    <div class="ml-3">
+                                                        <p><b>1. Resumen</b> (figura 42): Permite observar un resumen de los hallazgos significativos durante la Atención.</p>
+                                                        <div class="outer mb-5 mt-5">
+                                                            <figure class="figure">
+                                                                <img src="img/figura42.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                                <figcaption class="figure-caption textFigure">Figura 42</figcaption>
+                                                            </figure>
+                                                        </div>
+                                                        <p><b>2. Diagnóstico</b> (figura 43): Este cuadro permite seleccionar el diagnóstico que se adecue a la Atención. Siga los siguientes pasos:</p>
+                                                        <div class="ml-3">
+                                                            <p><b>a. Sugeridos:</b> Son diagnósticos frecuentes que se utilizan para la Atención prenatal. Seleccione uno o más,</p>
+                                                            <p><b>b. Seleccionados:</b> Los diagnósticos seleccionados aparecen en esta parte.</p>
+                                                            <p><b>c. Tipo de Diagnóstico:</b> Determine el tipo de diagnóstico, elija una de las opciones: Definitivo (D), Presuntivo (P) o Repetido (R).</p>
+                                                            <p><b>d. Laboratorio:</b> Anote el número de Atención.</p>
+                                                            <p><b>e. Observación:</b> Anote información adicional que crea conveniente.</p>
+                                                            <p><b>f. Barra sw CIE-10:</b> Busque el diagnóstico que necesita en el listado de CIE-10, ingrese el nombre o código del CIE-10, seleccione el diagnóstico, aparecerá en la parte inferior, continúe con los pasos anteriores.</p>
+                                                            <p><b>e. Observación:</b> Anote información adicional que crea conveniente.</p>
+                                                        </div>
+                                                        <p><b>3. Plan de trabajo</b> (figura 43): Registre las acciones que el profesional determine necesario para la gestante.</p>
+                                                        <p><b>4. Tratamiento</b> (figura 43): Muestra la cantidad de tabletas de micronutrientes recetados.</p>
+                                                        <p><b>5. Próxima cita</b> (figura 43): Muestra la cita programada en la Atención. Puede ser cambiada.</p>
+                                                        <div class="outer mb-5 mt-5">
+                                                            <figure class="figure">
+                                                                <img src="img/figura43.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                                <figcaption class="figure-caption textFigure">Figura 43</figcaption>
+                                                            </figure>
+                                                        </div>
+                                                        <p><b>6. Laboratorio exámenes a pedir</b> (figura 44): Seleccione los exámenes que debe hacer la gestante. Puede seleccionar Otros exámenes pulsando en la barra, si desea eliminar alguno pulse en el símbolo “X”.</p>
+                                                        <p><b>7. Cuadro de edad gestacional</b> (figura 44): Muestra la edad gestacional y la fecha probable de parto. Seleccione la edad gestacional para la Atención. De acuerdo al criterio del profesional.</p>
+                                                         <div class="outer mb-5 mt-5">
+                                                            <figure class="figure">
+                                                                <img src="img/figura44.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                                <figcaption class="figure-caption textFigure">Figura 44</figcaption>
+                                                            </figure>
+                                                        </div>
+                                                        <p><b>8. Gráficos</b> (figura 45): Cuadro donde se observa los gráficos de <b>Ganancia de peso materno</b> y <b>Altura uterina materna</b>. Los gráficos se generan de manera automática según vaya registrando las Atenciones prenatales.</p>
+                                                        <p><b>9. Resumen Antecedentes:</b> Se observan los resúmenes de Antecedentes Familiares, Médicos y obstétricos.</p>
+                                                        <p><b>10. Regresar a la Atención</b> Permite retornar a la sección anterior. NO guarda los cambios.</p>
+                                                        <p><b>11. Guardar</b> Terminado el registro pulse este botón que guardará la información y lo llevará a la siguiente ventana.</p>
+                                                         <div class="outer mb-5 mt-5">
+                                                            <figure class="figure">
+                                                                <img src="img/figura45.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                                <figcaption class="figure-caption textFigure">Figura 45</figcaption>
+                                                            </figure>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="contentReportes">
+                                        <p><b>2. REPORTES</b></p>
+                                        <div class="contenedor">
+                                            <p>Terminado el registro de la Atención, debe de generar los Reportes (figura 46) de la atención. Los pasos para generar los reportes son:</p>
+                                            <div class="mb-5">
+                                                <div class="ml-3">
+                                                    <p><b>1. Guardar:</b> Pulse el botón para Guardar en la sección de Diagnóstico, lo llevará al <b>Cuadro de Atenciones Prenatales</b>.</p>
+                                                    <p><b>2. Reportes</b> Pulse el botón, se abre una ventana con la lista de los reportes que genera el sistema, pulse sobre el nombre del reporte e inmediatamente se descargará, los reportes de la Atención se encuentran en formato de PDF.</p>
+                                                    <div class="ml-3">
+                                                        <p>a. Ficha de tamizaje de violencia.</p>
+                                                        <p>b. Solicitud de examen citológico.</p>
+                                                        <p>c. Solicitud de exámenes clínicos.</p>
+                                                        <p>d. Historia clínica.</p>
+                                                        <p>e. Plan de parto.</p>
+                                                        <p>f. Tarjeta de seguimiento.</p>
+                                                        <p>g. Receta única estandarizada.</p>
+                                                        <p>h. Receta única de flujo vaginal.</p>
+                                                        <p>i. Receta única de prueba rápida.</p>
+                                                        <p>j. Formato único de atención.</p>
+                                                        <p>k. Hoja de referencia.</p>
+                                                        <p>l. Carnet de Atención prenatal.</p>
+                                                        <p>m. Atención prenatal.</p>
+                                                        <p>n. Fichas Únicas de Atención, códigos: 009, 011, 013, 024 y 071. </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="outer mb-5 mt-5">
+                                            <figure class="figure">
+                                                <img src="img/figura46.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                <figcaption class="figure-caption textFigure">Figura 46</figcaption>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <div class="contenedorAtencionesPrenatales">
+                                        <p><b>3. CUADRO DE ATENCIONES PRENATALES:</b></p>
+                                        <P>Campo (figura 47) donde se visualizan las principales opciones para generar, editar Atenciones o terminar un embarazo.</P>
+                                        <div class="contenedor ml-3">
+                                            <p><b>1. Editar embarazo actual:</b> Pulse este botón para Editar la Atención previamente guardado.</p>
+                                            <p><b>2. Crear una nueva Atención:</b> Atención: Pulse este botón para generar una nueva Atención.</p>
+                                            <p><b>3. Ecografías:</b> Pulse este botón que lo llevara a la sección de ecografía, donde puede editar y agregar nuevas ecografías.</p>
+                                            <p><b>4. Reportes:</b> Pulse este botón para ver y descargar los reportes de al última Atención prenatal.</p>
+                                            <p><b>5. Terminar embarazo:</b> Este botón se pulsa para terminar el embarazo actual. Si la paciente vuelve a embarazarse, se generará un nuevo registro de embarazo dentro de la HCE.</p>
+                                            <p><b>6. Ir al detalle del paciente:</b> Pulsando este botón puede modificar, eliminar o visualizar la información registrada de la paciente.</p>
+                                        </div>
+                                        <div class="outer mb-5 mt-5">
+                                            <figure class="figure">
+                                                <img src="img/figura47.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                <figcaption class="figure-caption textFigure">Figura 47</figcaption>
+                                            </figure>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </section>
+                            <!-- Registros estadísticos -->
+                            <section class="ol">
+                                <div id="registrosEstadisticos">
+                                    <p class="title">Registros Estadísticos</p>
+                                    <p>Esta sección de la HCE permite visualizar los distintos tipos de indicadores, y nos permite realizar un análisis y obtener información de los datos hasta el momento trabajado.</p>
+                                    <p>Desde la página principal de wawared. Hacer pulsar el siguiente botón (figura 48)</p>
+                                    <div class="outer mb-5 mt-5">
+                                        <figure class="figure">
+                                            <img src="img/reportes_estadisticos.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                            <figcaption class="figure-caption textFigure">Reportes Estadísticos</figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="mb-5">
+                                        <p><b>1. Reportes estadísticos</b>Este botón nos permite seleccionar el tipo de indicador que deseamos, y entre la lista de indicadores que tenemos figuran estos:</p>
+                                        <div class="ml-3">
+                                            <ul>
+                                                <li>Gestante Tamizada con prueba rápida de sífilis.</li>
+                                                <li>Gestante adolescente atendida,</li>
+                                                <li>Gestante adolescente controlada.</li>
+                                                <li>Gestante atendida.</li>
+                                                <li>Gestante Atendida En Psicoprofilaxis y Estimulación Prenatal.</li>
+                                                <li>Gestante atendida por trimestre.</li>
+                                                <li>Gestante con ácido fólico 1er trimestre.</li>
+                                                <li>Gestante con amenaza de aborto.</li>
+                                                <li>Gestante con Anemia.</li>
+                                                <li>Gestante con ecografía.</li>
+                                                <li>Gestante con evaluación nutricional.</li>
+                                                <li>Gestante con Pap.</li>
+                                                <li>Gestante con Pap Positivo</li>
+                                                <li>Gestante con pre eclampsia.</li>
+                                                <li>Gestante con resultados de análisis en 2da Bacteria.</li>
+                                                <li>Gestante atendida (6ta atención)</li>
+                                                <li>Gestante con ITU</li>
+                                                <li>Gestante Preparada en Psicoprofilaxis y estimulación Prenatal.</li>
+                                                <li>Gestante protegida con vacuna antitetánica (2 dosis).</li>
+                                                <li>Gestante que inicia plan de parto.</li>
+                                                <li>Gestante Reactiva para sífilis.</li>
+                                                <li>Gestante reactiva para VIH.</li>
+                                                <li>Gestante reenfocada (paquete completo con la 6ta atención).</li>
+                                                <li>Gestante tamizada con prueba rápida para VIH.</li>
+                                            </ul>
+                                        </div>
+                                        <p><b>2. Fecha de inicio: </b>Este botón nos permite seleccionar desde que fecha deseamos ver el indicador seleccionado. Fecha final: Este botón nos permite seleccionar hasta que fecha final deseamos ver el indicador.</p>
+                                        <p><b>3. Mostrar</b>Este botón nos permite visualizar una tabla y un grafio en barras, que nos permite ver el porcentaje de pacientes según el indicador seleccionado.</p>
+                                        <p><b>4. Exportar como XLSX</b>Este botón nos permite exportar los datos en un archivo de Excel.</p>
+                                    </div>
+                                    <div class="outer mb-5 mt-5">
+                                        <figure class="figure">
+                                            <img src="img/figura48.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                            <figcaption class="figure-caption textFigure">Figura 48</figcaption>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- Registro de citas -->
+                            <section class="ol">
+                                <div id="registrosCitas">
+                                    <p class="title">Registros De Citas</p>
+                                    <div class="mb-5">
+                                        <p>Esta sección de la HCE permite registrar citas que desee programar a la gestante. Para acceder a esta sección pulse el icono Registrar Cita. Para crear una nueva cita siga los siguientes pasos (figura 49):</p>
+                                        <p><b>1. BUSCAR GESTANTE:</b> Ingrese el Apellido, Nombre o N° de HC de la gestante que desee crear una cita.</p>
+                                        <p><b>2. PACIENTES:</b> Seleccione al paciente.</p>
+                                        <p><b>3. FECHA:</b> Seleccione la fecha para la cita.</p>
+                                        <p><b>4. HORA:</b> Registre la hora para la cita.</p>
+                                        <p><b>5. COMENTARIO:</b> Registre comentarios si cree conveniente.</p>
+                                        <p><b>6. CANCELAR:</b> Pulse este botón y cancele todo registro, regresará a la pantalla anterior. NO guarda los cambios.</p>
+                                        <p><b>7. GUARDAR:</b> Pulse este botón y guarda todos los datos registrados. Pasará automáticamente a la pantalla siguiente.</p>
+                                        <p>Si el registro fue exitoso, aparecerá una alerta de conformidad.</p>
+                                    </div>
+                                    <div class="outer mb-5 mt-5">
+                                        <figure class="figure">
+                                            <img src="img/figura49.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                            <figcaption class="figure-caption textFigure">Figura 49</figcaption>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- calendario de citas -->
+                            <section class="ol">
+                                <div id="calendarioCitas">
+                                    <p class="title">Calendario De Citas</p>
+                                    <div class="mb-5">
+                                        <p>Visualiza todas las citas programadas en su establecimiento de salud, para ingresar a esta sección pulse el botón Calendario de citas de la pantalla principal del sistema. La ventana se compone de las siguientes opciones:</p>
+                                        <p><b>1. Cuadro de visualización</b>( figura 50): Es la pantalla principal de esta sección, se visualiza el calendario con la cita programada por paciente, los días y/o hora de cita. Depende del tipo de visualización.</p>
+                                        <p><b>2. Barra de avance:</b> Permite el avance o retroceso por los meses, semanas o días. Depende del tipo de visualización.</p>
+                                        <p><b>3. Botón del día:</b>Muestra la información del día actual.</p>
+                                        <p><b>4. Elección de visualización:</b>Elija el tipo de visualización, mensual, semanal o diario.</p>
+                                        <p><b>5. Cita programada:</b>Visualiza la información del paciente programado, pulsando el nombre puede ver los detalles de la cita y/o eliminarla.</p>
+                                        <div class="outer mb-5 mt-5">
+                                            <figure class="figure">
+                                                <img src="img/figura50.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                <figcaption class="figure-caption textFigure">Figura 50</figcaption>
+                                            </figure>
+                                        </div>
+                                        <p>También conforman el Calendario de citas el Reporte de citas y el Reporte de citas en riesgo, estas aparecen en la pantalla de inicio (figura 50).</p>
+                                        <p><b>6. Reporte de citas:</b>Presenta una lista de las gestantes con citas programadas para el día actual. Muestra los datos de la gestante como también la fecha y hora programada.</p>
+                                        <p><b>7. Reporte de citas en riesgo:</b> Presenta una lista con las gestantes que no acudieron a su cita. Este cuadro mostrará a todas las gestantes que tienen un retraso de una semana de la cita programada.</p>
+                                        <div class="outer mb-5 mt-5">
+                                            <figure class="figure">
+                                                <img src="img/figura50-2.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                <figcaption class="figure-caption textFigure">Figura 50</figcaption>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- busqueda de gestantes -->
+                            <section class="ol">
+                                <div id="busquedaGestantes">
+                                    <p class="title">Busqueda De Gestantes</p>
+                                    <div class="mb-5">
+                                        <p>Esta sección le permite la búsqueda de gestantes registradas en el sistema. Para acceder a esta opción pulse el ícono Buscar Gestante (figura 51). Para buscar una gestante siga los siguientes pasos:</p>
+                                        <p><b>1. Barra de búsqueda:</b>Ingrese el Apellido, Nombre o N° de HC de la gestante que desee buscar.</p>
+                                        <p><b>2. Tabla de resultados:</b>En esta tabla se presentan todos los resultados similares registrados en el sistema.</p>
+                                        <p><b>3. Total de resultados:</b>Barra de navegación, si hay varios resultados podrá ingresar a las diferentes tablas con resultados similares.</p>
+                                    </div>
+                                    <div class="outer mb-5 mt-5">
+                                        <figure class="figure">
+                                            <img src="img/figura51.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                            <figcaption class="figure-caption textFigure">Figura 51</figcaption>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- herramientas de acceso -->
+                            <section class="ol2">
+                                <div id="herramientasAcceso">
+                                    <p class="title">Herramientas De Acceso</p>
+                                    <div class="mb-5">
+                                        <p>Son aquellos que permiten descargar, navegar o visualizar información de manera rápida dentro del sistema.</p>
+                                        <div class="mb-5">
+                                            <p><b>1. Barra de acceso pantalla de inicio</b> (figura 52):</p>
+                                            <div class="ml-4">
+                                                <p><b>A. Informe nutricional:</b>Permite la descarga delreporte, elija el lapso de tiempo y descargue.</p>
+                                                <p><b>B. Reporte global:</b> Permite la descarga del reporte, elija el lapso de tiempo y descargue.</p>
+                                                <p><b>C. Libro de registro diario de gestantes:</b>Permite la descarga del reporte, elija el lapso de tiempo y descargue.</p>
+                                            </div>
+                                        </div>
+                                        <div class="mb-5">
+                                            <p><b>2. Barra de acceso de datos de filiación de gestante</b> (figura 53):</p>
+                                            <div class="ml-4">
+                                                <p><b>A. Antecedentes:</b>Carga la pantalla de los antecedentes.</p>
+                                                <p><b>B. Embarazos previos:</b>Carga la pantalla de registro de embarazos previos.</p>
+                                                <p><b>C. Agregar embarazo:</b>Si hay un embarazo actual en curso nos llevará a los Atenciones, si termino un embarazo creará un nuevo embarazo.</p>
+                                                <p><b>D. Atenciones:</b>Carga la pantalla de los Atenciones prenatales.</p>
+                                            </div>
+                                        </div>
+                                        <div class="outer mb-5 mt-5">
+                                            <figure class="figure">
+                                                <img src="img/figura52.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                <figcaption class="figure-caption textFigure">Figura 52</figcaption>
+                                            </figure>
+                                        </div>
+                                        <div class="outer mb-5 mt-5">
+                                            <figure class="figure">
+                                                <img src="img/figura53.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                <figcaption class="figure-caption textFigure">Figura 53</figcaption>
+                                            </figure>
+                                        </div>
+                                        <div class="mb-5">
+                                            <p><b>3. Barra de acceso de embarazo actual</b> (figura 54):</p>
+                                            <div class="ml-4">
+                                                <p><b>A. Editar embarazo actual:</b> Carga la pantalla para editar el embarazo actual.</p>
+                                                <p><b>B. Crear nueva Atención:</b>Crea una nueva Atención prenatal.</p>
+                                                <p><b>C. Ecografías:</b> Carga la pantalla de ecografías.</p>
+                                                <p><b>D. Reportes:</b> Muestra la pantalla con los reportes de la Atención para ser descargados</p>
+                                                <p><b>E. Terminar embarazo:</b> Termina el embarazo actual.</p>
+                                            </div>
+                                        </div>
+                                        <div class="mb-5">
+                                            <p><b>4. Barra de acceso por Atención</b> (figura 55):</p>
+                                            <div class="ml-4">
+                                                <p><b>A. Síntomas:</b> Carga la pantalla de síntomas.</p>
+                                                <p><b>B. Examen físico:</b> Carga la pantalla de examen físico.</p>
+                                                <p><b>C. Laboratorio:</b> Carga la pantalla de laboratorio.</p>
+                                                <p><b>D. Diagnóstico:</b> Carga la pantalla de diagnóstico.</p>
+                                                <p><b>E. Agregar ecografía:</b> Carga la pantalla para agregar una ecografía.</p>
+                                                <p><b>F. Reportes:</b> Muestra la pantalla con los reportes de la Atención para ser descargados.</p>
+                                            </div>
+                                        </div>
+                                        <div class="outer mb-5 mt-5">
+                                            <figure class="figure">
+                                                <img src="img/figura54.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                <figcaption class="figure-caption textFigure">Figura 54</figcaption>
+                                            </figure>
+                                        </div>
+                                        <div class="outer mb-5 mt-5">
+                                            <figure class="figure">
+                                                <img src="img/figura55.jpg" class="figure-img rounded img-fluid d-block mx-auto boxShadowImg" alt="">
+                                                <figcaption class="figure-caption textFigure">Figura 55</figcaption>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
