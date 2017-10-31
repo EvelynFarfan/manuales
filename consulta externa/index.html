@@ -2,24 +2,30 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Manual de uso: Módulo Inmunizaciones</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Manual de Uso: Módulo de Consulta Externa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
-<body data-spy="scroll" data-target="#menuListGroup">
+<body>
     <header class="headerBlue">
         <div class="headerMenu">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6 col-xs-6 col-5">
-                        <a href="index.html"><img class="img-fluid imagen_logoMinsa" src="img/logo_minsa_big.jpg" alt="Logo Minsa"></a>
-                    </div>
-                    <div class="col-md-6 col-xs-6 col-7">
-                        <p class="tittleHeader">Manual de Uso</p>
-                        <p class="subTittleHeader">Cosulta Externa</p>
+            <div class="row">
+                <div class="col s5 m6 l6" id="logo">
+                    <a href="index.html"><img class ="responsive-img imagen_logoMinsa" src="img/logo_minsa_big.jpg"></a>
+                </div>
+                <div class="col s7 m6 l6" id="contentBurger">
+                    <div class="row">
+                        <div class="col s12 m12 l1" id="burgerMenu">
+                            <a href="#" data-activates="slide-out" class="button-collapse"><i class="white-text material-icons">menu</i></a>
+                        </div>
+                        <div class="col s12 m12 l11" id="textMenu">
+                            <p class="tittleHeader">Manual de Usos</p>
+                            <p class="subTittleHeader">Consulta Externa</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -28,95 +34,109 @@
     <section class="contentInfo">
         <div class="container-fluid">
             <div class="row">
-                <div id="contentMenu" class="col-lg-3 col-md-4 col-12 mb-5">
-                    <div id="menuListGroup" class="list-group">
-                        <a href="#presentacion" class="list-group-item list-group-item-action active">Inicio</a>
-                        <a href="#ingreso" class="list-group-item list-group-item-action">Modo de Ingreso al módulo de consulta externa</a>
-                        <a href="#descripcion" class="list-group-item list-group-item-action">Descripción de la página de inicio de consulta externa</a>
-                        <a href="#ingresoInformacion" class="list-group-item list-group-item-action">Ingreso de información al módulo</a>
-                        <a href="#reportesEmitidos" class="list-group-item list-group-item-action">Reportes emitidos del módulo</a>
-                        <a href="#generacionReferencia" class="list-group-item list-group-item-action">Generación de la referencia al hospital</a>
+                <div id="contentMenu" class="col l3">
+                    <div id="menuListGroup" class="collection">
+                        <a href="#presentacion" class="collection-item">Presentación</a>
+                        <a href="#ingreso" class="collection-item">Modo de Ingreso al módulo de consulta externa</a>
+                        <a href="#descripcion" class="collection-item">Descripción de la página de inicio de consulta externa</a>
+                        <a href="#ingresoInformacion" class="collection-item">Ingreso de información al módulo</a>
+                        <a href="#reportesEmitidos" class="collection-item">Reportes emitidos del módulo</a>
+                        <a href="#generacionReferencia" class="collection-item">Generación de la referencia al hospital</a>
                     </div>
                 </div>
-                <div class="col-lg-9 col-md-8 col-12">
-                    <div data-spy="scroll" data-target="#menuListGroup" data-offset="0" class="contentWhite scrollspy-example">
+                <div>
+                    <ul id="slide-out" class="side-nav">
+                        <div class="menuSideNav">
+                            <p class="white-text tittleSideNav">Manual de Uso</p>
+                            <p class="white-text subTittleSideNav">Consulta Extrerna</p>
+                        </div>
+                        <li><a href="#presentacion" class="collection-item">Presentación</a></li>
+                        <li><a href="#abreviaturas" class="collection-item">Modo de Ingreso al módulo de consulta externa</a></li>
+                        <li><a href="#ingreso" class="collection-item">Descripción de la página de inicio de consulta externa</a></li>
+                        <li><a href="#pantallaPrincipal" class="collection-item">Ingreso de información al módulo</a></li>
+                        <li><a href="#registroGestante" class="collection-item">Reportes emitidos del módulo</a></li>
+                        <li><a href="#atencionPrenatal" class="collection-item">Generación de la referencia al hospital</a></li>
+                    </ul>
+                </div>
+                <div class="col l9 s12">
+                    <div class="contentWhite">
                         <div class="container-fluid">
                             <section class="ol">
-                                <div id="presentacion">
+                                <div id="presentacion" class="section scrollspy">
                                     <p class="title">Presentación</p>
                                     <div class="row">
                                        <!--  <div class="col-md-4"><a href="https://placeholder.com"><img src="http://via.placeholder.com/315x240"></a></div> -->
                                         <div class="col-md-12">
                                             <p class="text-justify">La utilización de la tecnología de la información y comunicación como instrumento te acerca a los servicios de salud es un proyecto desarrollado a través de la creación de plataformas web especiales que sirven para brindar un servicio a la comunidad a través de internet, de la telemedicina, las historias clínicas electrónicas, los mensajes de textos y las redes sociales.</p>
-                                            <P>Es por ello que en la presente gestion se han puesto al servicio de la población una serie de herramientas tecnológicas en este caso las plataformas web con la finalidad de acercar los servicios de salud a los que más lo necesitan, como parte de la política de inclusión social. Dichos modulos son: programacion de citas a los diversos servicios medico, modulo triaje, cred e inmunizaciones y consulta externa.</P>
+                                            <P>Es por ello que en la presente gestion se han puesto al servicio de la población una serie de herramientas tecnológicas en este caso las plataformas web con la finalidad de acercar los servicios de salud a los que más lo necesitan, como parte de la política de inclusión social. Dichos módulos son: programacion de citas a los diversos servicios medico, módulo triaje, cred e inmunizaciones y consulta externa.</P>
                                         </div>
                                     </div>
                                 </div>
                             </section>
                             <section class="ol">
-                                <div id="ingreso">
+                                <div id="ingreso" class="section scrollspy">
                                     <p class="title">INGRESO A HCECE</p>
                                     <div class="mb-5">
                                         <p><b>a.</b> Se debe usar el navegador Google Chrome o Firefox</p>
-                                        <img class="img-fluid d-block mx-auto" src="img/mg_browser.png" alt="navegadores donde se debe usar la web">
+                                        <img class="center-block responsive-img boxShadowImg" src="img/mg_browser.png" alt="navegadores donde se debe usar la web">
                                     </div>
                                     <div class="mb-5">
                                         <p><b>b.</b> Debe escribir la url de la siguiente forma: <b><a target="_blank" href="http://hcece.minsa.gob.pe">http://hcece.minsa.gob.pe</a></b> </p>
-                                        <img class="mt-5 img-fluid d-block mx-auto boxShadowImg" src="img/url.png" alt="url para ingresar a ventanilla única">
+                                        <img class="mt-5 center-block responsive-img boxShadowImg" src="img/url.png" alt="url para ingresar a ventanilla única">
                                     </div>
                                     <div class="mb-5">
                                         <p><b>c.</b> Se debe escribir el usuario y contraseña (en este caso es el DNI del usuario generado por el sistema).</p>
                                         <p><i>Nota: Por medidas de seguridad, se recomienda cambiar la contraseña, una vez ingresado al sistema)</i></p>
-                                        <img class="mt-5 img-fluid d-block mx-auto boxShadowImg" src="img/login.png" alt="imagen de login">
+                                        <img class="mt-5 center-block responsive-img boxShadowImg" src="img/login.png" alt="imagen de login">
                                     </div>    
                                 </div>
                             </section>
                             <section class="ol">
-                                <div id="descripcion">
+                                <div id="descripcion" class="section scrollspy">
                                     <p class="title">DESCRIPCIÓN DE LA PÁGINA DE INICIO de consulta externa</p>
                                     <div class="mb-5">
                                         <p>En la siguiente figura, se observa el listado de pacientes citados en cada uno del consultorio externo, en este caso es de Medicina. Dichos pacientes vienen del servicio de triaje.</p>
                                         <p><b>Nota: Es obligatorio que el paciente haya pasado por el servicio de triaje, debido que en dicho servicio se implementó el módulo de triaje.</b></p>
                                         <p>En dicho listado consta se los siguientes datos: HCE (historia clínica electrónica), nombre y apellidos, consultorio asignado, cupo (orden de llegada), hora de inicio de consulta Para ingresar a cada Historia clínica tan solo hacer clic en botón Atender</p>
-                                        <img class="mt-5 img-fluid d-block mx-auto boxShadowImg" src="img/lista_plantilla_hoy.png" alt="Lista de pacientes con citas para hoy">
+                                        <img class="mt-5 center-block responsive-img boxShadowImg" src="img/lista_plantilla_hoy.png" alt="Lista de pacientes con citas para hoy">
                                     </div>  
                                 </div>
                             </section>
                             <section class="ol">
-                                <div id="ingresoInformacion">
+                                <div id="ingresoInformacion" class="section scrollspy">
                                     <p class="title">Ingreso de información al módulo</p>
                                     <div class="mb-5">
                                         <p>Al ingresar al módulo se aprecia los siguientes campos.</p>
-                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto boxShadowImg" src="img/informacion_modulo_hcece.png" alt="formulario de detalles de consulta">
-                                        <p><b>1.</b> En la cabecera, se encuentra los datos del paciente, en la mayoría de los casos esta la fotografía, los nombres completos, el n° DNI, sexo, edad (sison niños menores de 1 año, está calculado en meses).</p>
-                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto boxShadowImg" src="img/informacion_modulo_hcece1.png" alt="cabecera con datos del paciente">
+                                        <img class="mt-5 mb-5 center-block responsive-img boxShadowImg" src="img/informacion_modulo_hcece.png" alt="formulario de detalles de consulta">
+                                        <p><b>1.</b> En la cabecera, se encuentra los datos del paciente, en la mayoría de los casos esta la fotografía, los nombres completos, el n° DNI, sexo, edad (si son niños menores de 1 año, está calculado en meses).</p>
+                                        <img class="mt-5 mb-5 center-block responsive-img boxShadowImg" src="img/informacion_modulo_hcece1.png" alt="cabecera con datos del paciente">
                                         <p><b>2.</b> La fecha de la consulta está determinada por defecto y la hora.</p>
-                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto boxShadowImg" src="img/informacion_modulo_hcece2.png" alt="fecha y hora de consulta">
+                                        <img class="mt-5 mb-5 center-block responsive-img boxShadowImg" src="img/informacion_modulo_hcece2.png" alt="fecha y hora de consulta">
                                         <p><b>3.</b> Detalle de la consulta: Consiste en llenar según la entrevista que realiza el medico al paciente, en la cual esta los siguientes ítems: Fiebre en los 15 días, Tos de más de 15 días, secreción o lesiones genitales, cuidados paliativos (son opciones que se puede marcar más de uno).</p>
-                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto boxShadowImg" src="img/informacion_modulo_hcece3.png" alt="detalles de consulta">
+                                        <img class="mt-5 mb-5 center-block responsive-img boxShadowImg" src="img/informacion_modulo_hcece3.png" alt="detalles de consulta">
                                         <p><b>4.</b> Tiempo de enfermedad: Registrar el número y marcar los parámetros de tiempo (días, semanas, meses, años).</p>
-                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto boxShadowImg" src="img/informacion_modulo_hcece4.png" alt="tiempo de consulta">
+                                        <img class="mt-5 mb-5 center-block responsive-img boxShadowImg" src="img/informacion_modulo_hcece4.png" alt="tiempo de consulta">
                                         <p><b>5.</b> Motivo de consulta: Es el relato del paciente acude a la consulta médica, pueden utilizar números y abreviaturas según onvenga.</p>
-                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto boxShadowImg" src="img/informacion_modulo_hcece5.png" alt="Motivo de consulta">
+                                        <img class="mt-5 mb-5 center-block responsive-img boxShadowImg" src="img/informacion_modulo_hcece5.png" alt="Motivo de consulta">
                                         <p><i><b>Nota:</b> En caso que la paciente sea mujer aparecen los siguientes campos: Fecha de ultima menstruación, régimen catamenial (tiempo regla) y la condición (marcar si es gestante o puérpera).En caso si es paciente adolescente, aparecen campos acerca del desarrollo físico del adolescente.</i></p>
                                     </div>
                                     <div class="mb-5">
                                         <p><b>6.</b> Visualización de signos vitales y datos antropométricos: En estos campos están llenados desde el servicio de triaje siendo que allí esta implementado el módulo de triaje. El cálculo del IMC y diagnóstico es de forma automática.</p>
-                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto boxShadowImg" src="img/signos_vitales_hcece.png" alt="Formulario de signos vitales">
+                                        <img class="mt-5 mb-5 center-block responsive-img boxShadowImg" src="img/signos_vitales_hcece.png" alt="Formulario de signos vitales">
                                     </div>
                                     <div class="mb-5">
                                         <p><b>7. Funciones Biológicas:</b> En el momento de la entrevista médica, si no hay ninguna alteración de dichas funciones en forma automática se marcan y no es visible. Pero si hay alguna alteración en los siguientes campos: apetito, sed sueño, orina, deposiciones y estado de sueño. En el campo de observaciones se llena según convenga el médico.</p>
-                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto boxShadowImg" src="img/funciones_biologicas_hcece.png" alt="Formulario de Funciones Biologicas HCECE">
+                                        <img class="mt-5 mb-5 center-block responsive-img boxShadowImg" src="img/funciones_biologicas_hcece.png" alt="Formulario de Funciones Biologicas HCECE">
                                         <p><b>8.</b> Si en caso, se agregó el campo examen visual, al marcar dicho campo se visualiza los campos propios del examen visual.</p>
-                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto boxShadowImg" src="img/examen_visual_hcece.png" alt="Formulario examen visial de HCECE">
+                                        <img class="mt-5 mb-5 center-block responsive-img boxShadowImg" src="img/examen_visual_hcece.png" alt="Formulario examen visial de HCECE">
                                         <p><b>9.</b> Examen regional: El medico marcara después de su examen físico del paciente, los campos que están alterados con su respectiva observación si es necesario.</p>
-                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto boxShadowImg" src="img/examen_regional_hcece.png" alt="Formulario de examen regional de HCECE">
+                                        <img class="mt-5 mb-5 center-block responsive-img boxShadowImg" src="img/examen_regional_hcece.png" alt="Formulario de examen regional de HCECE">
                                         <p><b>10. Examen mental:</b> Al marcar el campo, se hace visible los siguientes campos para su llenado según sea necesario.</p>
-                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto boxShadowImg" src="img/examen_mental_hcece.png" alt="Formulario de examen mental de HCECE">
-                                        <p><b>11.</b> Diagnósticos: Según la prioridad del médico, se llenará en el campo diagnostico como lo conoce el médico. Enseguida para hallar el código CIE10 se debe escribir el código o la palabra que aparecerá en forma automática. Marcar el tipo de diagnóstico que corresponda: Definitivo(D), Presuntivo(P) o Repetitivo(R). Si hubo algún error solo marcar el botón X y si desea agregar más diagnósticos marcar el botón Agregar</p>
-                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto boxShadowImg" src="img/diagnostico_hcece.png" alt="Formulario de examen mental de HCECE">
+                                        <img class="mt-5 mb-5 center-block responsive-img boxShadowImg" src="img/examen_mental_hcece.png" alt="Formulario de examen mental de HCECE">
+                                        <p><b>11. Diagnósticos:</b>  Según la prioridad del médico, se llenará en el campo diagnostico como lo conoce el médico. Enseguida para hallar el código CIE10 se debe escribir el código o la palabra que aparecerá en forma automática. Marcar el tipo de diagnóstico que corresponda: Definitivo(D), Presuntivo(P) o Repetitivo(R). Si hubo algún error solo marcar el botón X y si desea agregar más diagnósticos marcar el botón Agregar</p>
+                                        <img class="mt-5 mb-5 center-block responsive-img boxShadowImg" src="img/diagnostico_hcece.png" alt="Formulario de examen mental de HCECE">
                                         <p><b>12.</b> Para determinar el medicamento se realiza de la siguiente forma:</p>
-                                        <ul class="list-unstyled">
+                                        <ul class="list-unstyled ml-3">
                                             <li><span><b>a.</b> Escribir el medicamento (con su nombre genérico) y al encontrar clic para seleccionar.</span></li>
                                             <li><span><b>b.</b> Formula farmacéutica(FF), El tipo de presentación que se visualiza en forma automática.</span></li>
                                             <li><span><b>c.</b> Concentración es correspondiente al medicamento seleccionado que aparece en forma automática.</span></li>
@@ -125,34 +145,34 @@
                                             <li><span><b>f.</b> Duración del tratamiento, se llena en número que va durar dicho tratamiento</span></li>
                                             <li><span><b>g.</b> Observación: Se registra datos según lo considero el médico, por ejemplo (las horas,forma de consumo entre otras)</span></li>
                                         </ul>
-                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto boxShadowImg" src="img/plan_medicamentos_hcece.png" alt="imagen de receta medica">
+                                        <img class="mt-5 mb-5 center-block responsive-img boxShadowImg" src="img/plan_medicamentos_hcece.png" alt="imagen de receta medica">
                                         <p><b>13.</b> En caso que necesite otro apoyo al diagnóstico médico, se debe marcar en campo imágenes, el apoyo de imagen que necesite. En campo laboratorio, escribirá por la palabra o código cie10, el tipo de apoyo de laboratorio que requiera el paciente. Procedimientos: Es más conocido como CPT (Current Procedual Terminology), marcar el tipo procedimiento o servicio médico realizado durante la consulta. Si hubo algún error solo con marcar el icono X se elimina la fila y el botón agregar si desea agregar una fila.</p>
-                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto boxShadowImg" src="img/examenes_auxiliares_hcece.png" alt="formulario de examenes auxiliares">
+                                        <img class="mt-5 mb-5 center-block responsive-img boxShadowImg" src="img/examenes_auxiliares_hcece.png" alt="formulario de examenes auxiliares">
                                         <p><b>14.</b> Observaciones: El medico escribirá las recomendaciones y cuidados durante el tratamiento entre otras recomendaciones. Al terminar de llenar, clic botón Guardar.</p>
-                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto boxShadowImg" src="img/observaciones_hcece.png" alt="Formulario de observaciones">
+                                        <img class="mt-5 mb-5 center-block responsive-img boxShadowImg" src="img/observaciones_hcece.png" alt="Formulario de observaciones">
                                     </div>              
                                 </div> 
                             </section>
                             <section class="ol">
-                                <div id="reportesEmitidos">
+                                <div id="reportesEmitidos" class="section scrollspy">
                                     <div class="mb-5">
                                         <p class="title">Reportes emitidos del módulo</p>
                                         <p>Al terminar de llenar y guardar los datos, se aprecia los siguientes reportes para su impresión y archivamiento en el file del paciente.</p>
                                         <p><b>Informe de atención</b></p>
-                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto boxShadowImg" src="img/informe_atencion_hcece.png" alt="información de atencion">
+                                        <img class="mt-5 mb-5 center-block responsive-img boxShadowImg" src="img/informe_atencion_hcece.png" alt="información de atencion">
                                         <p><b>Recetas para la entrega de medicinas</b></p>
-                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto boxShadowImg" src="img/receta_unica_hcece.png" alt="receta para la entrega de medicinas">
+                                        <img class="mt-5 mb-5 center-block responsive-img boxShadowImg" src="img/receta_unica_hcece.png" alt="receta para la entrega de medicinas">
                                     </div>
                                 </div>
                             </section>
                             <section class="ol2">
-                                <div id="generacionReferencia">
+                                <div id="generacionReferencia" class="section scrollspy">
                                     <p class="title">Generación de la referencia al hospital</p>
                                     <div class="mb-5">
                                         <p>Para la generación de la referencia médica para otro establecimiento de salud se debe hacer clic en botón Como generar referencia.</p>
-                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto boxShadowImg" src="img/boton_hcece.png" alt="boton para generar referencia">
+                                        <img class="mt-5 mb-5 center-block responsive-img boxShadowImg" src="img/boton_hcece.png" alt="boton para generar referencia">
                                         <p>Aparece una ventana nueva y se llena los campos requeridos y necesario para la referencia.</p>
-                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto boxShadowImg" src="img/genera_referencia_hcece.png" alt="resultado genera referencia">
+                                        <img class="mt-5 mb-5 center-block responsive-img boxShadowImg" src="img/genera_referencia_hcece.png" alt="resultado genera referencia">
                                     </div>
                                 </div>
                             </section>
@@ -163,8 +183,7 @@
         </div>
     </section>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-<script type="text/javascript" src="js/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>            
+    <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>

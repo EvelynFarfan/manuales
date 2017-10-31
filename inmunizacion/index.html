@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Manual de uso: Módulo Inmunizaciones</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <title>Manual de uso: Módulo Inmunizaciones</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body data-spy="scroll" data-target="#menuListGroup">
     <header class="headerBlue">
         <div class="headerMenu">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6 col-xs-6 col-5">
-                        <a href="index.html"><img class="img-fluid imagen_logoMinsa" src="img/logo_minsa_big.jpg" alt="Logo Minsa"></a>
-                    </div>
-                    <div class="col-md-6 col-xs-6 col-7">
-                        <p class="tittleHeader">Manual de Uso</p>
-                        <p class="subTittleHeader">Módulo de Inmunización</p>
+            <div class="row">
+                <div class="col s5 m6 l6" id="logo">
+                    <a href="index.html"><img class ="responsive-img imagen_logoMinsa" src="img/logo_minsa_big.jpg"></a>
+                </div>
+                <div class="col s7 m6 l6" id="contentBurger">
+                    <div class="row">
+                        <div class="col s12 m12 l1" id="burgerMenu">
+                            <a href="#" data-activates="slide-out" class="button-collapse"><i class="white-text material-icons">menu</i></a>
+                        </div>
+                        <div class="col s12 m12 l11" id="textMenu">
+                            <p class="tittleHeader">Manual de Uso</p>
+                            <p class="subTittleHeader">Módulo de Inmunizaciones</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -28,67 +34,80 @@
     <section class="contentInfo">
         <div class="container-fluid">
             <div class="row">
-                <div id="contentMenu" class="col-lg-3 col-md-4 col-12 mb-5">
-                    <div id="menuListGroup" class="list-group">
-                        <a href="#presentacion" class="list-group-item list-group-item-action active">Inicio</a>
-                        <a href="#ingreso" class="list-group-item list-group-item-action">Ingreso al Módulo de Inmunizaciones</a>
-                        <a href="#descripcion" class="list-group-item list-group-item-action">Descripción de la Página de Inicio</a>
-                        <a href="#registroPacientenuevo" class="list-group-item list-group-item-action">Registro de paciente nuevo en módulo inmunizaciones</a>
-                        <a href="#registroVacuna" class="list-group-item list-group-item-action">Registro de Vacunas</a>
+                <div id="contentMenu" class="col l3">
+                    <div id="menuListGroup" class="collection">
+                        <a href="#presentacion" class="collection-item">Presentación</a>
+                        <a href="#ingreso" class="collection-item">Ingreso al Módulo de Inmunizaciones</a>
+                        <a href="#descripcion" class="collection-item">Descripción de la Página de Inicio</a>
+                        <a href="#registroPacientenuevo" class="collection-item">Registro de paciente nuevo en módulo inmunizaciones</a>
+                        <a href="#registroVacuna" class="collection-item">Registro de Vacunas</a>
                     </div>
                 </div>
-                <div class="col-lg-9 col-md-8 col-12">
-                    <div data-spy="scroll" data-target="#menuListGroup" data-offset="0" class="contentWhite scrollspy-example">
+                <div>
+                    <ul id="slide-out" class="side-nav">
+                        <div class="menuSideNav">
+                            <p class="white-text tittleSideNav">Manual de Usos</p>
+                            <p class="white-text subTittleSideNav">Wawared</p>
+                        </div>
+                        <li><a href="#presentacion" class="collection-item">Presentación</a></li>
+                        <li><a href="#abreviaturas" class="collection-item">Ingreso al Módulo de Inmunizaciones</a></li>
+                        <li><a href="#ingreso" class="collection-item">Descripción de la Página de Inicio</a></li>
+                        <li><a href="#pantallaPrincipal" class="collection-item">Registro de paciente nuevo en módulo inmunizaciones</a></li>
+                        <li><a href="#registroGestante" class="collection-item">Registro de Vacunas</a></li> 
+                    </ul>
+                </div>
+                <div class="col l9 s12">
+                    <div class="contentWhite">
                         <div class="container-fluid">
                             <section class="ol">
-                                <div id="presentacion">
+                                <div id="presentacion" class="section scrollspy">
                                     <p class="title">Presentación</p>
                                     <div class="row">
-                                        <div class="col-md-4"><a href="https://placeholder.com"><img src="http://via.placeholder.com/315x160"></a></div>
-                                        <div class="col-md-8">
+                                        <!-- <div class="col-md-4"><a href="https://placeholder.com"><img src="http://via.placeholder.com/315x160"></a></div> -->
+                                        <div class="col-md-12">
                                             <p class="text-justify">En el presente instructivo se hace conocer al usuario correspondiente al servicio de inmunizaciones, las características del sistema y el ingreso de datos de forma correcta. Como tambien la emision de los formatos de registro de vacunas diarias en las diferentes etapas de vida, el informe mensual de la poblacion inmunizadas.</p>
                                         </div>
                                     </div>
                                 </div>
                             </section>
                             <section class="ol">
-                                <div id="ingreso">
+                                <div id="ingreso" class="section scrollspy">
                                     <p class="title">Ingreso al Módulo de Inmunizaciones</p>
                                     <div class="mb-5">
                                         <p><b>a.</b> Se debe usar el navegador Google Chrome o Firefox.</p>
-                                        <img class="img-fluid d-block mx-auto" src="img/mg_browser.png" alt="navegadores donde se debe usar la web">
+                                        <img class="center-block" src="img/mg_browser.png" alt="navegadores donde se debe usar la web">
                                     </div>
                                     <div class="mb-5">
                                         <p><b>b.</b> Debe escribir la url de la siguiente forma: <b><a target="_blank" href="http://inmunizaciones.minsa.gob.pe">http://inmunizaciones.minsa.gob.pe</a></b></p>
-                                        <img class="mt-5 img-fluid d-block mx-auto boxShadowImg" src="img/browser.png" alt="navegadores donde se debe usar la web">
+                                        <img class="mt-5 center-block boxShadowImg" src="img/browser.png" alt="navegadores donde se debe usar la web">
                                     </div>
                                     <div class="mb-5">
                                         <p><b>c.</b> Se debe escribir el usuario y contraseña (en este caso es el DNI del usuario generado por el sistema).</p>
                                         <p>Nota: Por medidas de seguridad, se recomienda cambiar la contraseña, una vez ingresado al sistema).</p>
-                                        <img class="mt-5 img-fluid d-block mx-auto boxShadowImg" src="img/browser2.png" alt="imagen de login">
+                                        <img class="mt-5 center-block boxShadowImg" src="img/browser2.png" alt="imagen de login">
                                     </div>    
                                 </div>
                             </section>
                             <section class="ol">
-                                <div id="descripcion">
+                                <div id="descripcion" class="section scrollspy">
                                     <p class="title">Descripción de la Página de Inicio</p>
                                     <div class="mb-5">
                                         <p><b>1.</b> A continuación se muestra la pantalla de inicio en la parte superior izquierda tenemos la barra de herramientas.</p>
-                                        <img class="mt-5 img-fluid d-block mx-auto" src="img/barra.png" alt="barra de herramientas">
+                                        <img class="mt-5 center-block" src="img/barra.png" alt="barra de herramientas">
                                     </div>
                                     <div class="mb-5">
                                         <p><b>2.</b> En la parte superior central se puede visualizar al ingresar al sistema, que aparecen tanto el nombre del establecimiento, como el nombre del usuario que está ingresando al módulo.</p>
-                                        <img class="mt-5 img-fluid d-block mx-auto boxShadowImg" src="img/barra2.png" alt="imagen donde se muestra la barra donde donde se muestra el nombre del establecimiento y el nombre del usuario">
+                                        <img class="mt-5 center-block boxShadowImg" src="img/barra2.png" alt="imagen donde se muestra la barra donde donde se muestra el nombre del establecimiento y el nombre del usuario">
                                     </div>
                                     <div class="mb-5">
                                         <p><b>3.</b> Luego nos aparece Menú principal del sistema. (1) Cuerpo principal de la aplicación donde se muestra la lista de “pacientes citados el día de hoy” y “pacientes que no acudieron a su cita en los últimos 7 días”.</p>
-                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto" src="img/vacunaHoy.png" alt="Imagen lista de pacientes citados hoy y pacientes atrazados (botón descargar)">
-                                        <img class="mt-5 img-fluid d-block mx-auto" src="img/botonCalendario.png" alt="Imagen lista de pacientes citados hoy y pacientes atrazados (botón calendario)"> 
+                                        <img class="mt-5 mb-5 center-block" src="img/vacunaHoy.png" alt="Imagen lista de pacientes citados hoy y pacientes atrazados (botón descargar)">
+                                        <img class="mt-5 center-block" src="img/botonCalendario.png" alt="Imagen lista de pacientes citados hoy y pacientes atrazados (botón calendario)"> 
                                     </div>
                                 </div>
                             </section>
                             <section class="ol">
-                               <div id="registroPacientenuevo">
+                               <div id="registroPacientenuevo" class="section scrollspy">
                                     <p class="title">Registro de Paciente Nuevo en módulo inmunizaciones</p>
                                     <div>
                                         <p>Para registrar a un paciente que llega por primera vez al establecimiento se desarrollarán una serie de pasos que a continuación serán explicados detalladamente para mayor entendimiento.</p>
@@ -101,11 +120,11 @@
                                         <p>Cuando la paciente es nueva y nunca se vacuno y es primera vez que viene, primero se le busca en el sistema mediante su <b>DNI, APELLIDOS Y NOMBRES, N° CNV U OTRO DOCUMENTO</b>, CLICK EN EL <b>BOTÓN BUSCAR</b>.</p>
                                     </div>
                                     <div>
-                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto" src="img/search.png" alt="imagen del buscador">
+                                        <img class="mt-5 mb-5 center-block" src="img/search.png" alt="imagen del buscador">
                                         <p>Luego nos aparece en el sistema de la siguiente manera:</p>
-                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto" src="img/resultadoBusqueda.png" alt="lista de paciente con vacunas programadas para hoy">
+                                        <img class="mt-5 mb-5 center-block" src="img/resultadoBusqueda.png" alt="lista de paciente con vacunas programadas para hoy">
                                         <p>Damos clic en el botón calendario y automáticamente nos aparecerá esta ventana:</p>
-                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto boxShadowImg" src="img/modal.png" alt="Imagen de modal que aparece después de darle click a el botón calendario">
+                                        <img class="mt-5 mb-5 center-block boxShadowImg" src="img/modal.png" alt="Imagen de modal que aparece después de darle click a el botón calendario">
                                     </div>
                                     <div>
                                         <p><b>1.2.2 REGISTRAR VACUNACIÓN DEL PACIENTE EN LA APLICACIÓN</b></p>
@@ -114,70 +133,70 @@
                                     </div>
                                     <div class="lista container-fluid">
                                         <div class="row">
-                                            <div class="col-12"><p><b>-</b> Nombres y Apellidos</p></div>
+                                            <div class=""><p><b>-</b> Nombres y Apellidos</p></div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-5">
+                                            <div class="col m6" style="padding-left: 0">
                                                 <p><b>-</b> Editar datos de Filiación:</p>
                                             </div>
-                                            <div class="col-md-7"><img class="img-fluid mx-auto" src="img/editarDatos.png" alt="icono que representa a editar datos de paciente"></div>
+                                            <div class="col m6"><img class="responsive-img" src="img/editarDatos.png" alt="icono que representa a editar datos de paciente"></div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-12"><p><b>-</b> Fecha de Nacimiento dd/mm/aaaa (edad en años, meses y/o días)</p></div>
+                                            <div class=""><p><b>-</b> Fecha de Nacimiento dd/mm/aaaa (edad en años, meses y/o días)</p></div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-12"><p><b>-</b> Muestra si tiene o no Antecedentes: SI/NO</p></div>
+                                            <div class=""><p><b>-</b> Muestra si tiene o no Antecedentes: SI/NO</p></div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-12"><p><b>-</b> Muestra si tiene o no Reacciones a vacunas: SI/NO</p></div>
+                                            <div class=""><p><b>-</b> Muestra si tiene o no Reacciones a vacunas: SI/NO</p></div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-6">
+                                            <div class="col m6" style="padding-left: 0">
                                                 <p><b>-</b> Registrar Datos de Antecedentes:</p>
                                             </div>
-                                            <div class="col-md-6"><img class="img-fluid mx-auto" src="img/editar.png" alt="icono que representa a editar datos de paciente"></div>
+                                            <div class="col 6><img class="><img class="responsive-img" src="img/editar.png" alt="icono que representa a editar datos de paciente"></div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-6">
+                                            <div class="col m6">
                                                 <p><b>-</b> Impresión de tarjeta de Vacunas:</p>
                                             </div>
-                                            <div class="col-md-6"><img class="img-fluid mx-auto" src="img/print.png" alt="icono que representa a editar datos de paciente"></div>
+                                            <div class="col m6"><img class="img-fluid mx-auto" src="img/print.png" alt="icono que representa a editar datos de paciente"></div>
                                         </div>
                                     </div>
                                     <p class="mt-3"><b>3.</b> En la parte central muestra el calendario de vacunación del paciente, de acuerdo al esquema de vacunación que le corresponde. Se muestra todas las vacunas indicando el estado actual de cada una (leyenda)</p>
                                     <div class="lista container-fluid">
                                         <div class="row">
-                                            <div class="col-md-7 col-7">
+                                            <div class="col m6 s5">
                                                 <p><b>-</b> Programada según esquema de vacunación:</p>
                                             </div>
-                                            <div class="col-md-5 col-5"><img class="img-fluid mx-auto" src="img/vacunaProgramada.png" alt="icono de vacuna programada"></div>
+                                            <div class="col m6 s7"><img class="img-fluid mx-auto" src="img/vacunaProgramada.png" alt="icono de vacuna programada"></div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-5 col-7">
+                                            <div class="col m6 s7">
                                                 <p><b>-</b> Vacuna atrasada:</p>
                                             </div>
-                                            <div class="col-md-7 col-5"><img class="img-fluid mx-auto" src="img/vacunaAtrasada.png" alt="icono de vacuna atrasada"></div>
+                                            <div class="col m6 s5"><img class="img-fluid mx-auto" src="img/vacunaAtrasada.png" alt="icono de vacuna atrasada"></div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-5 col-7">
+                                            <div class="col m6 s7"
                                                 <p><b>-</b> Vacuna colocada:</p>
                                             </div>
-                                            <div class="col-md-7 col-5"><img class="img-fluid mx-auto" src="img/vacunaColocada.png" alt="icono de vacuna colocada"></div>
+                                            <div class="col m6 s5"><img class="img-fluid mx-auto" src="img/vacunaColocada.png" alt="icono de vacuna colocada"></div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-5 col-7">
+                                            <div class="col m6 s7">
                                                 <p><b>-</b> Próxima dosis con cita:</p>
                                             </div>
-                                            <div class="col-md-7 col-5"><img class="img-fluid mx-auto" src="img/proximaDosis.png" alt="icono de proxima cita"></div>
+                                            <div class="col m6 s5"><img class="img-fluid mx-auto" src="img/proximaDosis.png" alt="icono de proxima cita"></div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-5 col-7">
-                                                <p><b>-</b> ¡Vacunar hoy!:</p>
+                                            <div class="col m6 s7">
+                                                <p><b>-</b> ¡Vacunar hoy!: col m5 s7</p>
                                             </div>
-                                            <div class="col-md-7 col-5"><img class="img-fluid mx-auto" src="img/vacunaHoyBoton.png" alt="icono de vacuna programada para hoy"></div>
+                                            <div class="col m6 s5"><img class="img-fluid mx-auto" src="img/vacunaHoyBoton.png" alt="icono de vacuna programada para hoy"></div>
                                         </div>
                                     </div>
-                                    <img class="mt-5 mb-5 img-fluid d-block mx-auto boxShadowImg" src="img/vacunaCalendario.png" alt="calendario de vacunas">
+                                    <img class="mt-5 mb-5 center-block boxShadowImg" src="img/vacunaCalendario.png" alt="calendario de vacunas">
                                     <div>
                                         <p><b>1.2.2.1 EDITAR DATOS DE FILIACIÓN:</b></p>
                                         <p><b>1.</b> La aplicación muestra los datos personales del paciente, los cuales son datos válidos y actualizados de <b>RENIEC</b>.</p>
@@ -186,34 +205,34 @@
                                         <p><b>4.</b> Ingresar información de Dirección, Teléfono, Celular, Correo electrónico y luego presione el botón <b>ACTUALIZAR</b> para guardar los datos ingresados.</p>
                                     </div>
                                     <div>
-                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto boxShadowImg" src="img/datosPaciente.png" alt="modal donde se muestra los datos del paciente">
+                                        <img class="mt-5 mb-5 center-block boxShadowImg" src="img/datosPaciente.png" alt="modal donde se muestra los datos del paciente">
                                         <p><b>1.2.2.2 REGISTRAR DATOS DE ANTECEDENTES</b></p>
                                         <p><b>1.</b> Seleccionar el botón EDITAR, ubicado en la pantalla superior derecha y mostrará la pantalla con las preguntas de los antecedentes del paciente.</p>
-                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto boxShadowImg" src="img/barraPaciente.png" alt="modal donde se muestra los datos del paciente">
+                                        <img class="mt-5 mb-5 center-block boxShadowImg" src="img/barraPaciente.png" alt="modal donde se muestra los datos del paciente">
                                         <p>Para registrar datos de antecedentes debe marcar cada pregunta: <b>SI / NO / NO SABE </b>.</p>
                                         <p><b>NOTA:</b> De acuerdo a la respuesta de cada antecedente, la aplicación validará el registro de la vacunación.</p>
-                                        <img class="mt-5 mb-5 img-fluid d-block mx-auto boxShadowImg" src="img/modal.png" alt="modal donde se guarda los antecedentes de vacunación">
+                                        <img class="mt-5 mb-5 center-block boxShadowImg" src="img/modal.png" alt="modal donde se guarda los antecedentes de vacunación">
                                     </div>
                                 </div> 
                             </section>
                             <section class="ol2">
-                                <div id="registroVacuna">
+                                <div id="registroVacuna" class="section scrollspy">
                                     <p class="title">Registro de Vacunas</p>
                                     <p><b>2.2</b> Registro de Vacunas</p>
                                     <p>Se escribe el dni del paciente ( niño, Adultos o gestantes) en el buscador.</p>
-                                    <img class="mt-5 mb-5 img-fluid d-block mx-auto" src="img/search.png" alt="imagen del buscador">
+                                    <img class="mt-5 mb-5 center-block" src="img/search.png" alt="imagen del buscador">
                                     <p>Al encontrar el resultado de la busqueda , clic en botón Ver Calendario.</p>
-                                    <img class="mt-5 mb-5 img-fluid d-block mx-auto" src="img/resultadoBusqueda.png" alt="lista de paciente con vacunas programadas para hoy">
+                                    <img class="mt-5 mb-5 center-block" src="img/resultadoBusqueda.png" alt="lista de paciente con vacunas programadas para hoy">
                                     <p>A continuación se debe realizer de la siguiente manera.</p>
-                                    <img class="mt-5 mb-5 img-fluid d-block mx-auto" src="img/calendarioBotones.png" alt="descripciones de los botones del calendario">
+                                    <img class="mt-5 mb-5 center-block" src="img/calendarioBotones.png" alt="descripciones de los botones del calendario">
                                     <p>Aparece una nueva ventana con los datos de la paciente y se debe llenar los siguientes campos en los siguientes casos:
                                     <p><b>a.</b> Pacientes vacunados en el Establecimiento de Salud.</p>
-                                    <img class="mt-5 mb-5 img-fluid d-block mx-auto" src="img/vacuna.png" alt="agregar vacuna">
+                                    <img class="mt-5 mb-5 center-block" src="img/vacuna.png" alt="agregar vacuna">
                                     <p>Al terminar con el registro. Clic en boton <b>Guardar</b>.</p>
                                     <p><b>b.</b> Pacientes vacunados en otro Establecimiento de Salud.</p>
-                                    <img class="mt-5 mb-5 img-fluid d-block mx-auto" src="img/vacunaOther.png" alt="agregar vacuna de otro establecimiento">
+                                    <img class="mt-5 mb-5 center-block" src="img/vacunaOther.png" alt="agregar vacuna de otro establecimiento">
                                     <p>Al terminar con el registro. Clic en boton <b>Guardar</b>.</p>
-                                    <img class="mt-5 mb-5 img-fluid d-block mx-auto" src="img/fechaClick.png" alt="agregar vacuna de otro establecimiento">
+                                    <img class="mt-5 mb-5 center-block" src="img/fechaClick.png" alt="agregar vacuna de otro establecimiento">
                                 </div>
                             </section>
                         </div>
@@ -223,8 +242,7 @@
         </div>
     </section>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>            
 <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
